@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "68d716f52765f94fabd3777f_e9cb6f39-1a11-421d-bd91-7452db32bfe3",
-  "id": "Page1_JSObject1.myFun1",
+  "gitSyncId": "68d716f52765f94fabd3777f_1791e0de-ccee-4eba-9ed8-a7c58120ad6e",
+  "id": "Page1_JSObject1.btn_signInonClick",
   "pluginId": "js-plugin",
   "pluginType": "JS",
   "unpublishedAction": {
@@ -23,8 +23,8 @@
         "key": "body"
       }
     ],
-    "fullyQualifiedName": "JSObject1.myFun1",
-    "name": "myFun1",
+    "fullyQualifiedName": "JSObject1.btn_signInonClick",
+    "name": "btn_signInonClick",
     "pageId": "Page1",
     "runBehaviour": "MANUAL",
     "userSetOnLoad": false
