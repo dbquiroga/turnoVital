@@ -11,7 +11,7 @@
       "navStyle": "sidebar",
       "orientation": "side",
       "position": "static",
-      "showNavbar": false,
+      "showNavbar": true,
       "showSignIn": true
     },
     "themeSetting": {
@@ -65,7 +65,7 @@
       "navStyle": "sidebar",
       "orientation": "side",
       "position": "static",
-      "showNavbar": false,
+      "showNavbar": true,
       "showSignIn": true
     },
     "themeSetting": {
