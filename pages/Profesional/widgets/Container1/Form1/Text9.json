@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 5,
+  "bottomRow": 4,
   "displayName": "Text",
   "dynamicBindingPathList": [
     {
@@ -19,13 +19,13 @@
   "isLoading": false,
   "isVisible": true,
   "key": "omvx9vvum5",
-  "leftColumn": 1,
+  "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "overflow": "NONE",
-  "parentId": "8yn1325a6o",
+  "parentId": "mffopzj47f",
   "renderMode": "CANVAS",
-  "rightColumn": 41,
+  "rightColumn": 42,
   "searchTags": [
     "typography",
     "paragraph",
@@ -35,7 +35,7 @@
   "text": "Registrar Profesional",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 1,
+  "topRow": 0,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
