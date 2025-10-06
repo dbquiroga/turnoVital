@@ -30,7 +30,7 @@
   "isVisible": true,
   "key": "iqtolcdrld",
   "leftColumn": 8,
-  "onClick": "{{prof_insert.run()}}",
+  "onClick": "{{prof_insert.run().then(() => {\n  showAlert('Se registro el profesional', 'success');\n});}}",
   "parentId": "mffopzj47f",
   "placement": "CENTER",
   "recaptchaType": "V3",
