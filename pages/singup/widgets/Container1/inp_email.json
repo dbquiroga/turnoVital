@@ -51,6 +51,7 @@
     "number",
     "textarea"
   ],
+  "tooltip": "juan@turnovital.com",
   "topRow": 34,
   "type": "INPUT_WIDGET_V2",
   "version": 2,
