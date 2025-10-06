@@ -30,22 +30,6 @@
       "isDefault": false
     },
     {
-      "id": "Orders",
-      "isDefault": false
-    },
-    {
-      "id": "Customers",
-      "isDefault": false
-    },
-    {
-      "id": "Products",
-      "isDefault": false
-    },
-    {
-      "id": "Returns",
-      "isDefault": false
-    },
-    {
       "id": "Profesional",
       "isDefault": false
     },
