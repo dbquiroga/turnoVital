@@ -6,47 +6,41 @@
   "dynamicBindingPathList": [
     {
       "key": "fontFamily"
-    },
-    {
-      "key": "borderRadius"
-    },
-    {
-      "key": "textColor"
-    },
-    {
-      "key": "text"
     }
   ],
-  "dynamicHeight": "FIXED",
+  "dynamicHeight": "AUTO_HEIGHT",
   "dynamicTriggerPathList": [],
   "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
   "fontSize": "1.875rem",
-  "fontStyle": "BOLD",
+  "fontStyle": "",
   "hideCard": false,
-  "iconSVG": "/static/media/icon.97c59b52.svg",
+  "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
   "isDeprecated": false,
   "isLoading": false,
   "isVisible": true,
-  "key": "xx7obgmjct",
-  "leftColumn": 51,
+  "key": "omvx9vvum5",
+  "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
+  "originalBottomRow": 6,
+  "originalTopRow": 2,
   "overflow": "NONE",
-  "parentId": "m4pgcrl5lv",
+  "parentId": "0",
   "renderMode": "CANVAS",
-  "rightColumn": 63,
+  "rightColumn": 42,
   "searchTags": [
     "typography",
-    "paragraph"
+    "paragraph",
+    "label"
   ],
   "shouldTruncate": false,
-  "text": "{{utils.calculateAvFulfilTIme.data}} days",
+  "text": "Registrar Profesional",
   "textAlign": "LEFT",
-  "textColor": "{{appsmith.theme.colors.primaryColor}}",
-  "topRow": 3,
-  "truncateButtonColor": "#FFC13D",
+  "textColor": "#231F20",
+  "topRow": 2,
+  "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "hdkry19sb6",
-  "widgetName": "txt_fulfilTimeValue"
+  "widgetId": "xg9t0tvyhd",
+  "widgetName": "Text9"
 }

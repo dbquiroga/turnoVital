@@ -28,13 +28,13 @@
   "isLoading": false,
   "isVisible": true,
   "key": "xx7obgmjct",
-  "leftColumn": 3,
+  "leftColumn": 5,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "overflow": "NONE",
   "parentId": "m4pgcrl5lv",
   "renderMode": "CANVAS",
-  "rightColumn": 13,
+  "rightColumn": 15,
   "searchTags": [
     "typography",
     "paragraph"

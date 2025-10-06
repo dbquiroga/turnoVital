@@ -34,7 +34,7 @@
     "label"
   ],
   "shouldTruncate": false,
-  "text": "Order Status",
+  "text": "Estado de turnos",
   "textAlign": "LEFT",
   "textColor": "#fafafa",
   "topRow": 20,

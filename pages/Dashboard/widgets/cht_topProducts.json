@@ -8,10 +8,10 @@
   "chartData": {
     "rvvojsd6rv": {
       "data": "{{utils.topOrderedProductsChart.data || [{x: 1, y: 2}]}}",
-      "seriesName": "Products"
+      "seriesName": "Turnos"
     }
   },
-  "chartName": "Top Ordered Products",
+  "chartName": "Turnos asistidos ",
   "chartType": "COLUMN_CHART",
   "customEChartConfig": {
     "dataset": {

@@ -29,7 +29,7 @@
   "isVisible": true,
   "key": "d80868s2dr",
   "leftColumn": 4,
-  "onClick": "{{signup.run().then(() => {\n  showAlert('Usuario creado con éxito ✅', 'success');\n  navigateTo('Dashboard', {}, 'SAME_WINDOW');\n});}}",
+  "onClick": "{{btn_signInonClick.btn_signInonClick();}}",
   "originalBottomRow": 38,
   "originalTopRow": 32,
   "parentColumnSpace": 18.1875,

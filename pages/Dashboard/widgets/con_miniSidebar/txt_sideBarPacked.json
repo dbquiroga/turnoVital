@@ -45,7 +45,7 @@
     "label"
   ],
   "shouldTruncate": false,
-  "text": "Packed",
+  "text": "pendientes",
   "textAlign": "LEFT",
   "textColor": "{{appsmith.theme.colors.backgroundColor}}",
   "topRow": 31,
