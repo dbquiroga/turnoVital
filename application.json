@@ -40,6 +40,10 @@
     {
       "id": "Consultar Profesional",
       "isDefault": false
+    },
+    {
+      "id": "Modificar Profesional",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {

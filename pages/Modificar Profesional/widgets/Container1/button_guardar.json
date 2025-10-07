@@ -1,0 +1,45 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 47,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "0gawgidgd6",
+  "leftColumn": 17,
+  "minWidth": 120,
+  "mobileBottomRow": 47,
+  "mobileLeftColumn": 17,
+  "mobileRightColumn": 33,
+  "mobileTopRow": 43,
+  "needsErrorInfo": false,
+  "parentColumnSpace": 10.556640625,
+  "parentId": "7cmoyy9k8n",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 33,
+  "text": "Guardar",
+  "topRow": 43,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "9rp9yia9d8",
+  "widgetName": "button_guardar"
+}
