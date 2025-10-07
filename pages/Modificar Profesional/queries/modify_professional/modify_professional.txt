@@ -1,0 +1,8 @@
+{
+  "nombre": "{{ select_profesional.filterText }}",
+  "fecha_alta": "{{ inp_alta.formattedDate || undefined }}",
+  "matricula": "{{ inp_matricula.text }}",
+  "email": "{{ inp_email.text }}",
+  "telefono": "{{ inp_telefono.text }}",
+  "especialidad": "{{ select_especialidad.selectedOptionValue }}",
+}

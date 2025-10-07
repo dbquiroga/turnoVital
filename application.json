@@ -12,7 +12,7 @@
       "orientation": "side",
       "position": "static",
       "showNavbar": true,
-      "showSignIn": true
+      "showSignIn": false
     },
     "themeSetting": {
       "appMaxWidth": "LARGE",
@@ -58,7 +58,7 @@
       "orientation": "side",
       "position": "static",
       "showNavbar": true,
-      "showSignIn": true
+      "showSignIn": false
     },
     "themeSetting": {
       "appMaxWidth": "LARGE",

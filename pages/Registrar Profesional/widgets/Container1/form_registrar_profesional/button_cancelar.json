@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 60,
+  "bottomRow": 63,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonStyle": "PRIMARY",
@@ -27,6 +27,8 @@
   "key": "iqtolcdrld",
   "leftColumn": 0,
   "onClick": "",
+  "originalBottomRow": 60,
+  "originalTopRow": 55,
   "parentId": "mffopzj47f",
   "placement": "CENTER",
   "recaptchaType": "V3",
@@ -38,7 +40,7 @@
     "submit"
   ],
   "text": "Cancelar",
-  "topRow": 55,
+  "topRow": 58,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "8usq4et6jo",
