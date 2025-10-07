@@ -32,7 +32,7 @@
   "key": "2e3p5ebjwm",
   "leftColumn": 49,
   "minWidth": 120,
-  "onClick": "{{navigateTo('registrar_profesional', {}, 'SAME_WINDOW');}}",
+  "onClick": "{{navigateTo('Registrar Profesional', {}, 'SAME_WINDOW');}}",
   "parentColumnSpace": 19.8125,
   "parentId": "0",
   "parentRowSpace": 10,
