@@ -1,6 +1,6 @@
 {
   "gitSyncId": "68d716f52765f94fabd3777f_371e65df-c7c9-4527-a5eb-ed6582a1de62",
-  "id": "registrar_profesional_prof_select",
+  "id": "Registrar Profesional_prof_select",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -60,7 +60,7 @@
       }
     ],
     "name": "prof_select",
-    "pageId": "registrar_profesional",
+    "pageId": "Registrar Profesional",
     "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
