@@ -30,12 +30,16 @@
       "isDefault": false
     },
     {
-      "id": "Profesional",
+      "id": "registrar_profesional",
       "isDefault": false
     },
     {
       "id": "singup",
       "isDefault": true
+    },
+    {
+      "id": "consultar_profesional",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {

@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "68d716f52765f94fabd3777f_3b8da93d-4a0c-4a87-bac6-b17e083c9562",
-  "id": "Profesional_prof_insert",
+  "gitSyncId": "68d716f52765f94fabd3777f_c6eeb6c4-06bf-46af-9a93-61379dc5dc2b",
+  "id": "consultar_profesional_prof_select",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -24,7 +24,7 @@
         },
         {
           "key": "Authorization",
-          "value": "Bearer {{appsmith.store.access_token || 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InplaWl5dGh1Z2ViZWNod3p4ZWt0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTkxOTA0MzYsImV4cCI6MjA3NDc2NjQzNn0.Ose0R5PjBdZmIfqH5EILK-9TzRyk549jSp66-AotfRA'}}"
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsImtpZCI6IklKLzFHZEpUUlRrbjlxdlQiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3plaWl5dGh1Z2ViZWNod3p4ZWt0LnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiI1OTg3YWI4YS04YjkzLTQ1N2MtOGI0NS1iNjdkNjMyNDcyMGMiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzU5Nzk1OTI2LCJpYXQiOjE3NTk3OTIzMjYsImVtYWlsIjoiYWRtaW5AdHVybm92aXRhbC5jb20iLCJwaG9uZSI6IiIsImFwcF9tZXRhZGF0YSI6eyJwcm92aWRlciI6ImVtYWlsIiwicHJvdmlkZXJzIjpbImVtYWlsIl19LCJ1c2VyX21ldGFkYXRhIjp7ImVtYWlsX3ZlcmlmaWVkIjp0cnVlfSwicm9sZSI6ImF1dGhlbnRpY2F0ZWQiLCJhYWwiOiJhYWwxIiwiYW1yIjpbeyJtZXRob2QiOiJwYXNzd29yZCIsInRpbWVzdGFtcCI6MTc1OTc5MjMyNn1dLCJzZXNzaW9uX2lkIjoiYTJjM2RhNWEtOWNkNy00YWUyLTkzYjgtMTMyYWExZGYwNzgzIiwiaXNfYW5vbnltb3VzIjpmYWxzZX0.PBmmXNGalFjxuEClG6XkKffKaVd9tJJ2FktWTPXc_p8"
         },
         {
           "key": "Content-Type",
@@ -35,7 +35,7 @@
           "value": "return=representation"
         }
       ],
-      "httpMethod": "POST",
+      "httpMethod": "GET",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
       "path": "/rest/v1/professionals",
@@ -56,15 +56,12 @@
     },
     "dynamicBindingPathList": [
       {
-        "key": "headers[1].value"
-      },
-      {
         "key": "body"
       }
     ],
-    "name": "prof_insert",
-    "pageId": "Profesional",
-    "runBehaviour": "MANUAL",
+    "name": "prof_select",
+    "pageId": "consultar_profesional",
+    "runBehaviour": "AUTOMATIC",
     "userSetOnLoad": false
   }
 }
