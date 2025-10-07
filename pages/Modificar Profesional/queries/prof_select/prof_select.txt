@@ -1,0 +1,10 @@
+{
+  "nombre": "{{ inp_nombre_prof.text }}",
+  "fecha_alta": "{{ date_fecha_alta.formattedDate.selectedDate || undefined }}",
+  "matricula": "{{ inp_matricula.isValid.text }}",
+  "email": "{{ inp_email.isValid.text }}",
+  "telefono": "{{ inp_telefono.text }}",
+  "especialidad": "{{ selector_especialidad.filterText.selectedOptionValue }}",
+  "created_by": "{{ appsmith.store.user_id }}",
+  "user_id": null
+}

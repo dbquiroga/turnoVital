@@ -4,17 +4,24 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 6,
   "boxShadow": "none",
-  "defaultOptionValue": "GREEN",
+  "defaultOptionValue": "",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "sourceData"
     }
   ],
   "dynamicHeight": "FIXED",
-  "dynamicPropertyPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
   "dynamicTriggerPathList": [],
   "isDisabled": false,
   "isFilterable": true,
@@ -42,12 +49,12 @@
   "parentColumnSpace": 10.556640625,
   "parentId": "7cmoyy9k8n",
   "parentRowSpace": 10,
-  "placeholderText": "Seleccionar especialidad",
+  "placeholderText": "Seleccionar profesional",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
   "rightColumn": 33,
   "serverSideFiltering": false,
-  "sourceData": "",
+  "sourceData": "{{prof_select.data}}",
   "topRow": 0,
   "type": "SELECT_WIDGET",
   "version": 1,
