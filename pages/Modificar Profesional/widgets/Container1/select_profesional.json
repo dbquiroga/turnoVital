@@ -54,7 +54,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 33,
   "serverSideFiltering": false,
-  "sourceData": "{{prof_select.data}}",
+  "sourceData": "{{ Array.isArray(prof_select.data) ? prof_select.data : (prof_select.data?.data || []) }}\n",
   "topRow": 0,
   "type": "SELECT_WIDGET",
   "version": 1,
