@@ -24,7 +24,7 @@
         },
         {
           "key": "Authorization",
-          "value": "Bearer eyJhbGciOiJIUzI1NiIsImtpZCI6IklKLzFHZEpUUlRrbjlxdlQiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3plaWl5dGh1Z2ViZWNod3p4ZWt0LnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiI1OTg3YWI4YS04YjkzLTQ1N2MtOGI0NS1iNjdkNjMyNDcyMGMiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzU5OTg5NjIxLCJpYXQiOjE3NTk5ODYwMjEsImVtYWlsIjoiYWRtaW5AdHVybm92aXRhbC5jb20iLCJwaG9uZSI6IiIsImFwcF9tZXRhZGF0YSI6eyJwcm92aWRlciI6ImVtYWlsIiwicHJvdmlkZXJzIjpbImVtYWlsIl19LCJ1c2VyX21ldGFkYXRhIjp7ImVtYWlsX3ZlcmlmaWVkIjp0cnVlfSwicm9sZSI6ImF1dGhlbnRpY2F0ZWQiLCJhYWwiOiJhYWwxIiwiYW1yIjpbeyJtZXRob2QiOiJwYXNzd29yZCIsInRpbWVzdGFtcCI6MTc1OTk4NjAyMX1dLCJzZXNzaW9uX2lkIjoiNTIxYTM1MWEtMzI5OC00OTY2LWI1N2ItYzZiNWRlMzI0NTJlIiwiaXNfYW5vbnltb3VzIjpmYWxzZX0.NgggA7SusuKsKIwD6ElYM0RW6FeoGwf9PnCYvTgHja0"
+          "value": "Bearer {{ appsmith.store.access_token }}"
         },
         {
           "key": "Content-Type",
@@ -55,7 +55,11 @@
       "name": "SupabaseREST",
       "pluginId": "restapi-plugin"
     },
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "headers[1].value"
+      }
+    ],
     "name": "mostrarProfesionales",
     "pageId": "Consultar Profesional",
     "runBehaviour": "AUTOMATIC",
