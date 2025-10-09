@@ -30,7 +30,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "2e3p5ebjwm",
-  "leftColumn": 44,
+  "leftColumn": 51,
   "minWidth": 120,
   "onClick": "{{navigateTo('Registrar Profesional', {}, 'SAME_WINDOW');}}",
   "parentColumnSpace": 19.8125,
@@ -41,7 +41,7 @@
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 57,
+  "rightColumn": 64,
   "searchTags": [
     "click",
     "submit"
