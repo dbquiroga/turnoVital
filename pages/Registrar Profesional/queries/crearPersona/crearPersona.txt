@@ -4,5 +4,5 @@
   "dni": "{{ inp_dni.text }}",
   "telefono": "{{ inp_telefono.text }}",
   "fecha_nacimiento": "{{ inp_nacimiento.formattedDate }}",
-  "domicilio_id": "{{ appsmith.store.domicilio_id }}"
+  "domicilio_id": "{{ 012fe57c-0a90-423b-af1e-93cb6324d2aa}}"
 }

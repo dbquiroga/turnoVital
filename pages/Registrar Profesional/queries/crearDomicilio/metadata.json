@@ -11,7 +11,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{\n  \"calle\": \"{{ inp_calle.text }}\",\n  \"numero\": \"{{ inp_numero.text }}\",\n  \"piso\": \"{{ inp_piso.text }}\",\n  \"departamento\": \"{{ inp_departamento.text }}\",\n  \"ciudad_id\": \"{{ select_ciudad.selectedOptionValue }}\"\n}\n",
+      "body": "{\n  \"calle\": \"{{ inp_calle.text }}\",\n  \"numero\": \"{{ inp_numero.text }}\",\n  \"piso\": \"{{ inp_piso.text }}\",\n  \"departamento\": \"{{ inp_departamento.text }}\",\n  \"ciudad_id\": \"{{ '11e49cb4-256a-4589-a831-3ed38bcd74b5'}}\"\n}\n",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {
@@ -24,14 +24,14 @@
         },
         {
           "key": "Authorization",
-          "value": "Bearer {{ appsmith.store.access_token }}"
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsImtpZCI6IklKLzFHZEpUUlRrbjlxdlQiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3plaWl5dGh1Z2ViZWNod3p4ZWt0LnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiI1OTg3YWI4YS04YjkzLTQ1N2MtOGI0NS1iNjdkNjMyNDcyMGMiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzU5OTg5NjIxLCJpYXQiOjE3NTk5ODYwMjEsImVtYWlsIjoiYWRtaW5AdHVybm92aXRhbC5jb20iLCJwaG9uZSI6IiIsImFwcF9tZXRhZGF0YSI6eyJwcm92aWRlciI6ImVtYWlsIiwicHJvdmlkZXJzIjpbImVtYWlsIl19LCJ1c2VyX21ldGFkYXRhIjp7ImVtYWlsX3ZlcmlmaWVkIjp0cnVlfSwicm9sZSI6ImF1dGhlbnRpY2F0ZWQiLCJhYWwiOiJhYWwxIiwiYW1yIjpbeyJtZXRob2QiOiJwYXNzd29yZCIsInRpbWVzdGFtcCI6MTc1OTk4NjAyMX1dLCJzZXNzaW9uX2lkIjoiNTIxYTM1MWEtMzI5OC00OTY2LWI1N2ItYzZiNWRlMzI0NTJlIiwiaXNfYW5vbnltb3VzIjpmYWxzZX0.NgggA7SusuKsKIwD6ElYM0RW6FeoGwf9PnCYvTgHja0"
         },
         {
           "key": "Content-Type",
           "value": "application/json"
         }
       ],
-      "httpMethod": "GET",
+      "httpMethod": "POST",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
       "path": "/rest/v1/domicilio",
@@ -51,9 +51,6 @@
       "pluginId": "restapi-plugin"
     },
     "dynamicBindingPathList": [
-      {
-        "key": "headers[1].value"
-      },
       {
         "key": "body"
       }

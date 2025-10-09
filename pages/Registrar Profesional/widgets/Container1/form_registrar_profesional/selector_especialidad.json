@@ -45,7 +45,7 @@
   "mobileTopRow": 28,
   "needsErrorInfo": false,
   "optionLabel": "nombre",
-  "optionValue": "nombre",
+  "optionValue": "id",
   "originalBottomRow": 52,
   "originalTopRow": 45,
   "parentColumnSpace": 15.9375,

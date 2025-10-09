@@ -3,5 +3,5 @@
   "numero": "{{ inp_numero.text }}",
   "piso": "{{ inp_piso.text }}",
   "departamento": "{{ inp_departamento.text }}",
-  "ciudad_id": "{{ select_ciudad.selectedOptionValue }}"
+  "ciudad_id": "{{ '11e49cb4-256a-4589-a831-3ed38bcd74b5'}}"
 }

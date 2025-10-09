@@ -11,7 +11,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{\n  \"matricula\": \"{{ inp_matricula.text }}\",\n  \"persona_id\": \"{{ appsmith.store.persona_id }}\",\n  \"especialidad_id\": \"{{ sel_especialidad.selectedOptionValue }}\"\n}\n",
+      "body": "{\n  \"matricula\": \"{{ inp_matricula.text }}\",\n  \"persona_id\": \"{{ appsmith.store.persona_id }}\",\n\t\"users_id\": \"{{'ba2cbd4a-4163-4add-b301-ebcc51f3f74b'}}\"\n  \"especialidad_id\": \"{{ selector_especialidad.selectedOptionValue }}\"\n}\n",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {

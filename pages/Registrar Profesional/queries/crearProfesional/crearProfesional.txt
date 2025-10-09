@@ -1,5 +1,6 @@
 {
   "matricula": "{{ inp_matricula.text }}",
   "persona_id": "{{ appsmith.store.persona_id }}",
-  "especialidad_id": "{{ sel_especialidad.selectedOptionValue }}"
+	"users_id": "{{'ba2cbd4a-4163-4add-b301-ebcc51f3f74b'}}"
+  "especialidad_id": "{{ selector_especialidad.selectedOptionValue }}"
 }
