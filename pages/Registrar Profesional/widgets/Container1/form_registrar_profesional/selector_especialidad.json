@@ -4,13 +4,16 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 19,
   "boxShadow": "none",
-  "defaultOptionValue": "GREEN",
+  "defaultOptionValue": "",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "sourceData"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -48,12 +51,12 @@
   "parentColumnSpace": 15.9375,
   "parentId": "mffopzj47f",
   "parentRowSpace": 10,
-  "placeholderText": "Select option",
+  "placeholderText": "Elige especialidad",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
   "rightColumn": 60,
   "serverSideFiltering": false,
-  "sourceData": "[\n  {\n    \"name\": \"Medico clinico\",\n    \"code\": \"BLUE\"\n  },\n  {\n    \"name\": \"Neurologo\",\n    \"code\": \"GREEN\"\n  },\n  {\n    \"name\": \"Oftalmologo\",\n    \"code\": \"RED\"\n  }\n]",
+  "sourceData": "{{listarEspecialidades.data}}",
   "topRow": 12,
   "type": "SELECT_WIDGET",
   "version": 1,

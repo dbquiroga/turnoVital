@@ -1,0 +1,5 @@
+{
+  "matricula": "{{ inp_matricula.text }}",
+  "persona_id": "{{ appsmith.store.persona_id }}",
+  "especialidad_id": "{{ sel_especialidad.selectedOptionValue }}"
+}

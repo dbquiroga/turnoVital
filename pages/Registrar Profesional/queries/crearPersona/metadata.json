@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "68d716f52765f94fabd3777f_c6eeb6c4-06bf-46af-9a93-61379dc5dc2b",
-  "id": "Consultar Profesional_prof_select",
+  "gitSyncId": "68d716f52765f94fabd3777f_bd8b839b-921c-4293-8a78-3780438d7a1a",
+  "id": "Registrar Profesional_crearPersona",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -11,7 +11,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{\n  \"nombre\": \"{{ inp_nombre_prof.text }}\",\n  \"fecha_alta\": \"{{ date_fecha_alta.formattedDate.selectedDate || undefined }}\",\n  \"matricula\": \"{{ inp_matricula.isValid.text }}\",\n  \"email\": \"{{ inp_email.isValid.text }}\",\n  \"telefono\": \"{{ inp_telefono.text }}\",\n  \"especialidad\": \"{{ selector_especialidad.filterText.selectedOptionValue }}\",\n  \"created_by\": \"{{ appsmith.store.user_id }}\",\n  \"user_id\": null\n}\n",
+      "body": "{\n  \"nombre\": \"{{ inp_nombre_prof.text }}\",\n  \"apellido\": \"{{ inp_apellido.text }}\",\n  \"dni\": \"{{ inp_dni.text }}\",\n  \"telefono\": \"{{ inp_telefono.text }}\",\n  \"fecha_nacimiento\": \"{{ inp_nacimiento.formattedDate }}\",\n  \"domicilio_id\": \"{{ appsmith.store.domicilio_id }}\"\n}\n",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {
@@ -29,16 +29,12 @@
         {
           "key": "Content-Type",
           "value": "application/json"
-        },
-        {
-          "key": "Prefer",
-          "value": "return=representation"
         }
       ],
-      "httpMethod": "GET",
+      "httpMethod": "POST",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "/rest/v1/professionals",
+      "path": "/rest/v1/persona",
       "pluginSpecifiedTemplates": [
         {
           "value": true
@@ -56,15 +52,15 @@
     },
     "dynamicBindingPathList": [
       {
-        "key": "body"
+        "key": "headers[1].value"
       },
       {
-        "key": "headers[1].value"
+        "key": "body"
       }
     ],
-    "name": "prof_select",
-    "pageId": "Consultar Profesional",
-    "runBehaviour": "AUTOMATIC",
+    "name": "crearPersona",
+    "pageId": "Registrar Profesional",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

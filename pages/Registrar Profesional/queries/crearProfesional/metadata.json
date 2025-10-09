@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "68d716f52765f94fabd3777f_371e65df-c7c9-4527-a5eb-ed6582a1de62",
-  "id": "Registrar Profesional_prof_select",
+  "gitSyncId": "68d716f52765f94fabd3777f_3b8da93d-4a0c-4a87-bac6-b17e083c9562",
+  "id": "Registrar Profesional_crearProfesional",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -11,7 +11,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{\n  \"nombre\": \"{{ inp_nombre_prof.text }}\",\n  \"fecha_alta\": \"{{ date_fecha_alta.formattedDate.selectedDate || undefined }}\",\n  \"matricula\": \"{{ inp_matricula.isValid.text }}\",\n  \"email\": \"{{ inp_email.isValid.text }}\",\n  \"telefono\": \"{{ inp_telefono.text }}\",\n  \"especialidad\": \"{{ selector_especialidad.filterText.selectedOptionValue }}\",\n  \"created_by\": \"{{ appsmith.store.user_id }}\",\n  \"user_id\": null\n}\n",
+      "body": "{\n  \"matricula\": \"{{ inp_matricula.text }}\",\n  \"persona_id\": \"{{ appsmith.store.persona_id }}\",\n  \"especialidad_id\": \"{{ sel_especialidad.selectedOptionValue }}\"\n}\n",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {
@@ -24,7 +24,7 @@
         },
         {
           "key": "Authorization",
-          "value": "Bearer eyJhbGciOiJIUzI1NiIsImtpZCI6IklKLzFHZEpUUlRrbjlxdlQiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3plaWl5dGh1Z2ViZWNod3p4ZWt0LnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiI1OTg3YWI4YS04YjkzLTQ1N2MtOGI0NS1iNjdkNjMyNDcyMGMiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzU5Nzk1OTI2LCJpYXQiOjE3NTk3OTIzMjYsImVtYWlsIjoiYWRtaW5AdHVybm92aXRhbC5jb20iLCJwaG9uZSI6IiIsImFwcF9tZXRhZGF0YSI6eyJwcm92aWRlciI6ImVtYWlsIiwicHJvdmlkZXJzIjpbImVtYWlsIl19LCJ1c2VyX21ldGFkYXRhIjp7ImVtYWlsX3ZlcmlmaWVkIjp0cnVlfSwicm9sZSI6ImF1dGhlbnRpY2F0ZWQiLCJhYWwiOiJhYWwxIiwiYW1yIjpbeyJtZXRob2QiOiJwYXNzd29yZCIsInRpbWVzdGFtcCI6MTc1OTc5MjMyNn1dLCJzZXNzaW9uX2lkIjoiYTJjM2RhNWEtOWNkNy00YWUyLTkzYjgtMTMyYWExZGYwNzgzIiwiaXNfYW5vbnltb3VzIjpmYWxzZX0.PBmmXNGalFjxuEClG6XkKffKaVd9tJJ2FktWTPXc_p8"
+          "value": "Bearer {{ appsmith.store.access_token }}"
         },
         {
           "key": "Content-Type",
@@ -35,10 +35,10 @@
           "value": "return=representation"
         }
       ],
-      "httpMethod": "GET",
+      "httpMethod": "POST",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "/rest/v1/professionals",
+      "path": "/rest/v1/profesional",
       "pluginSpecifiedTemplates": [
         {
           "value": true
@@ -57,9 +57,12 @@
     "dynamicBindingPathList": [
       {
         "key": "body"
+      },
+      {
+        "key": "headers[1].value"
       }
     ],
-    "name": "prof_select",
+    "name": "crearProfesional",
     "pageId": "Registrar Profesional",
     "runBehaviour": "MANUAL",
     "userSetOnLoad": false

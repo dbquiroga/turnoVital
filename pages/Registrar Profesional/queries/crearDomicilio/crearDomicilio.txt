@@ -1,0 +1,7 @@
+{
+  "calle": "{{ inp_calle.text }}",
+  "numero": "{{ inp_numero.text }}",
+  "piso": "{{ inp_piso.text }}",
+  "departamento": "{{ inp_departamento.text }}",
+  "ciudad_id": "{{ select_ciudad.selectedOptionValue }}"
+}

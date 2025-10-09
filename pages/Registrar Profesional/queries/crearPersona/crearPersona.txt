@@ -1,0 +1,8 @@
+{
+  "nombre": "{{ inp_nombre_prof.text }}",
+  "apellido": "{{ inp_apellido.text }}",
+  "dni": "{{ inp_dni.text }}",
+  "telefono": "{{ inp_telefono.text }}",
+  "fecha_nacimiento": "{{ inp_nacimiento.formattedDate }}",
+  "domicilio_id": "{{ appsmith.store.domicilio_id }}"
+}

@@ -1,11 +1,10 @@
 {
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
-  "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 44,
   "boxShadow": "none",
-  "defaultText": "",
+  "defaultOptionValue": "GREEN",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
@@ -15,18 +14,21 @@
     }
   ],
   "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
   "dynamicTriggerPathList": [],
-  "iconAlign": "left",
-  "inputType": "TEXT",
   "isDisabled": false,
+  "isFilterable": true,
   "isLoading": false,
   "isRequired": false,
   "isVisible": true,
-  "key": "zi9ve94emq",
-  "label": "Provincia",
+  "key": "0j309fmbvy",
   "labelAlignment": "left",
   "labelPosition": "Top",
-  "labelStyle": "",
+  "labelText": "Provincia",
   "labelTextColor": "#18181b",
   "labelTextSize": "1rem",
   "labelWidth": 5,
@@ -34,22 +36,25 @@
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 44,
-  "mobileLeftColumn": 12,
-  "mobileRightColumn": 32,
-  "mobileTopRow": 37,
+  "mobileBottomRow": 50,
+  "mobileLeftColumn": 38,
+  "mobileRightColumn": 58,
+  "mobileTopRow": 43,
   "needsErrorInfo": false,
-  "parentColumnSpace": 10.43994140625,
+  "optionLabel": "name",
+  "optionValue": "code",
+  "parentColumnSpace": 21.81787109375,
   "parentId": "mffopzj47f",
   "parentRowSpace": 10,
+  "placeholderText": "Select option",
   "renderMode": "CANVAS",
-  "resetOnSubmit": true,
   "responsiveBehavior": "fill",
   "rightColumn": 37,
-  "showStepArrows": false,
+  "serverSideFiltering": false,
+  "sourceData": "",
   "topRow": 37,
-  "type": "INPUT_WIDGET_V2",
-  "version": 2,
-  "widgetId": "fot3f32m6v",
-  "widgetName": "inp_provincia"
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "b2layrkvzg",
+  "widgetName": "select_provincia"
 }

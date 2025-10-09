@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "68d716f52765f94fabd3777f_3b8da93d-4a0c-4a87-bac6-b17e083c9562",
-  "id": "Registrar Profesional_prof_insert",
+  "gitSyncId": "68d716f52765f94fabd3777f_4ef6d17b-43af-421c-9123-5c95dd20b19d",
+  "id": "Registrar Profesional_crearDomicilio",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -11,7 +11,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{\n  \"nombre\": \"{{ inp_nombre_prof.text }}\",\n  \"fecha_alta\": \"{{ date_fecha_alta.formattedDate || undefined }}\",\n  \"matricula\": \"{{ inp_matricula.text }}\",\n  \"email\": \"{{ inp_email.text }}\",\n  \"telefono\": \"{{ inp_telefono.text }}\",\n  \"especialidad\": \"{{ selector_especialidad.selectedOptionValue }}\",\n  \"user_id\": \"5987ab8a-8b93-457c-8b45-b67d6324720c\"\n}\n",
+      "body": "{\n  \"calle\": \"{{ inp_calle.text }}\",\n  \"numero\": \"{{ inp_numero.text }}\",\n  \"piso\": \"{{ inp_piso.text }}\",\n  \"departamento\": \"{{ inp_departamento.text }}\",\n  \"ciudad_id\": \"{{ select_ciudad.selectedOptionValue }}\"\n}\n",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {
@@ -29,16 +29,12 @@
         {
           "key": "Content-Type",
           "value": "application/json"
-        },
-        {
-          "key": "Prefer",
-          "value": "return=representation"
         }
       ],
-      "httpMethod": "POST",
+      "httpMethod": "GET",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "/rest/v1/professionals",
+      "path": "/rest/v1/domicilio",
       "pluginSpecifiedTemplates": [
         {
           "value": true
@@ -56,13 +52,13 @@
     },
     "dynamicBindingPathList": [
       {
-        "key": "body"
+        "key": "headers[1].value"
       },
       {
-        "key": "headers[1].value"
+        "key": "body"
       }
     ],
-    "name": "prof_insert",
+    "name": "crearDomicilio",
     "pageId": "Registrar Profesional",
     "runBehaviour": "MANUAL",
     "userSetOnLoad": false

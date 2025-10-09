@@ -1,9 +1,0 @@
-{
-  "nombre": "{{ inp_nombre_prof.text }}",
-  "fecha_alta": "{{ date_fecha_alta.formattedDate || undefined }}",
-  "matricula": "{{ inp_matricula.text }}",
-  "email": "{{ inp_email.text }}",
-  "telefono": "{{ inp_telefono.text }}",
-  "especialidad": "{{ selector_especialidad.selectedOptionValue }}",
-  "user_id": "5987ab8a-8b93-457c-8b45-b67d6324720c"
-}

@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 63,
+  "bottomRow": 53,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonStyle": "PRIMARY_BUTTON",
@@ -30,7 +30,7 @@
   "isVisible": true,
   "key": "iqtolcdrld",
   "leftColumn": 8,
-  "onClick": "{{prof_insert.run().then(() => {\n  showAlert('Se registro el profesional', 'success');\n}).catch(() => {\n  showAlert('Fallo registro de profesional', '');\n});}}",
+  "onClick": "{{JSProfesional.guardarProfesional();}}",
   "originalBottomRow": 60,
   "originalTopRow": 55,
   "parentId": "mffopzj47f",
@@ -44,7 +44,7 @@
     "submit"
   ],
   "text": "Guardar",
-  "topRow": 58,
+  "topRow": 48,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "vhrvayvqvh",
