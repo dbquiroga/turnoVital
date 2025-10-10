@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "68d716f52765f94fabd3777f_7d2ba032-905c-4f82-aad1-f30b066e2277",
-  "id": "Modificar Profesional_getPersona",
+  "gitSyncId": "68d716f52765f94fabd3777f_402e7cb1-eae3-417d-90f7-82530c23a000",
+  "id": "Modificar Profesional_listarEspecialidades",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -24,27 +24,18 @@
         {
           "key": "Content-Type",
           "value": "application/json"
-        },
-        {
-          "key": "Prefer",
-          "value": "return=representation"
         }
       ],
       "httpMethod": "GET",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "/rest/v1/persona",
+      "path": "/rest/v1/especialidad",
       "pluginSpecifiedTemplates": [
         {
           "value": true
         }
       ],
-      "queryParameters": [
-        {
-          "key": "id",
-          "value": "eq.{{this.params.id}}"
-        }
-      ],
+      "queryParameters": [],
       "timeoutInMillisecond": 10000
     },
     "confirmBeforeExecute": false,
@@ -56,18 +47,12 @@
     },
     "dynamicBindingPathList": [
       {
-        "key": "path"
-      },
-      {
-        "key": "queryParameters[0].value"
-      },
-      {
         "key": "headers[1].value"
       }
     ],
-    "name": "getPersona",
+    "name": "listarEspecialidades",
     "pageId": "Modificar Profesional",
-    "runBehaviour": "MANUAL",
-    "userSetOnLoad": false
+    "runBehaviour": "ON_PAGE_LOAD",
+    "userSetOnLoad": true
   }
 }

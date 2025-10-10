@@ -67,7 +67,7 @@
     ],
     "name": "getDomicilio",
     "pageId": "Modificar Profesional",
-    "runBehaviour": "AUTOMATIC",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }
