@@ -19,6 +19,7 @@
   ],
   "dynamicHeight": "FIXED",
   "dynamicTriggerPathList": [],
+  "errorMessage": "No es un telefono valido",
   "iconAlign": "left",
   "isDisabled": false,
   "isLoading": false,

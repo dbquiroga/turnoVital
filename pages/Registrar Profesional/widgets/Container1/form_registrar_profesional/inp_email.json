@@ -5,7 +5,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 26,
   "boxShadow": "none",
-  "defaultText": "juanMedico@gmail.com",
+  "defaultText": "tuemail@gmail.com",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"

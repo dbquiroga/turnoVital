@@ -11,7 +11,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{\n  \"nombre\": \"{{ inp_nombre_prof.text }}\",\n  \"apellido\": \"{{ inp_apellido.text }}\",\n  \"dni\": \"{{ inp_dni.text }}\",\n  \"telefono\": \"{{ inp_telefono.text }}\",\n  \"fecha_nacimiento\": \"{{moment(inp_nacimiento.formattedDate).format('YYYY-MM-DD') }}\",\n  \"domicilio_id\": \"{{ crearDomicilio.data[0].id}}\"\n}\n",
+      "body": "{\n  \"nombre\": \"{{ inp_nombre_prof.text }}\",\n  \"apellido\": \"{{ inp_apellido.text }}\",\n  \"dni\": \"{{ inp_dni.text }}\",\n  \"telefono\": \"{{ inp_telefono.text }}\",\n  \"fecha_nacimiento\": \"{{moment(inp_nacimiento.formattedDate).format('YYYY-MM-DD') }}\",\n  \"domicilio_id\": \"{{ crearDomicilio.data[0].id}}\"\n\t\"email\": \"{{inp_email.text}}\"\n}\n",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {
