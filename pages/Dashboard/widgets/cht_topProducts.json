@@ -8,7 +8,7 @@
   "chartData": {
     "rvvojsd6rv": {
       "color": "#77b525",
-      "data": "{{utils.topOrderedProductsChart.data || [{x: 1, y: 2}]}}",
+      "data": "{{\n  utils.topOrderedProductsChart.data.map(item => ({\n    ...item,\n    x: ' ' // Reemplaza el valor de x con un espacio en blanco.\n  })) || [{x: ' ', y: 2}]\n}}",
       "seriesName": "Turnos"
     }
   },
@@ -201,12 +201,13 @@
     "visuals",
     "visualisations"
   ],
+  "setAdaptiveYMin": false,
   "showDataPointLabel": false,
   "topRow": 27,
   "type": "CHART_WIDGET",
   "version": 1,
   "widgetId": "lnkx3xgfj6",
   "widgetName": "cht_topProducts",
-  "xAxisName": "Products",
-  "yAxisName": "Quantity"
+  "xAxisName": "",
+  "yAxisName": "Cantidad"
 }

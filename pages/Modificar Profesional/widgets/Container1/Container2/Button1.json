@@ -11,7 +11,16 @@
       "key": "buttonColor"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "isDefaultClickDisabled": true,
   "isDisabled": false,
   "isLoading": false,
@@ -24,6 +33,7 @@
   "mobileRightColumn": 63,
   "mobileTopRow": 20,
   "needsErrorInfo": false,
+  "onClick": "{{ modificarDatosPersona.run(() => showAlert(\"Datos actualizados correctamente ✅\", \"success\"), \n                    () => showAlert(\"Error al actualizar ❌\", \"error\")) }}\n",
   "parentColumnSpace": 20.75592041015625,
   "parentId": "yfk9wo6brq",
   "parentRowSpace": 10,

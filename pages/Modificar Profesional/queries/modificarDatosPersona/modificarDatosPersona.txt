@@ -1,0 +1,6 @@
+{
+  "nombre": "{{ inp_nombre.text }}",
+  "apellido": "{{ inp_apellido.text }}",
+  "email": "{{ inp_email.text }}",
+  "telefono": "{{ inp_telefono.text }}"
+}
