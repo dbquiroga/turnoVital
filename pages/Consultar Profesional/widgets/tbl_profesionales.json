@@ -3,7 +3,7 @@
   "allowAddNewRow": false,
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 89,
+  "bottomRow": 86,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "canFreezeColumn": false,
   "childStylesheet": {
@@ -36,14 +36,14 @@
     "telefono",
     "especialidad",
     "persona_id",
+    "dni",
     "customColumn1",
     "customColumn3",
     "customColumn2",
     "profesional_id",
-    "dni",
     "especialidad_id"
   ],
-  "columnUpdatedAt": 1760106099767,
+  "columnUpdatedAt": 1760124080180,
   "columnWidthMap": {
     "BillingAddress": 212,
     "CustomerID": 93,
@@ -139,6 +139,9 @@
     },
     {
       "key": "primaryColumns.customColumn2.onClick"
+    },
+    {
+      "key": "primaryColumns.customColumn1.onClick"
     }
   ],
   "dynamicTriggerPathList": [
@@ -256,7 +259,7 @@
       "label": "",
       "labelColor": "#FFFFFF",
       "notation": "standard",
-      "onClick": "{{JSObject1.mostrarModalEliminar('currentRow');}}",
+      "onClick": "{{ eliminaryRefrescarProfesional.eliminarProfesional(currentRow) }}\n",
       "originalId": "customColumn1",
       "sticky": "",
       "textSize": "0.875rem",
@@ -437,7 +440,7 @@
       "isDiscardVisible": true,
       "isEditable": false,
       "isSaveVisible": true,
-      "isVisible": true,
+      "isVisible": false,
       "label": "especialidad_id",
       "notation": "standard",
       "originalId": "especialidad_id",
@@ -539,7 +542,7 @@
       "isDiscardVisible": true,
       "isEditable": false,
       "isSaveVisible": true,
-      "isVisible": true,
+      "isVisible": false,
       "label": "persona_id",
       "notation": "standard",
       "originalId": "persona_id",
@@ -573,7 +576,7 @@
       "isDiscardVisible": true,
       "isEditable": false,
       "isSaveVisible": true,
-      "isVisible": true,
+      "isVisible": false,
       "label": "profesional_id",
       "notation": "standard",
       "originalId": "profesional_id",
@@ -627,7 +630,7 @@
   "showInlineEditingOptionDropdown": true,
   "tableData": "{{mostrarProfesionales.data}}",
   "textSize": "0.875rem",
-  "topRow": 11,
+  "topRow": 8,
   "totalRecordsCount": "",
   "type": "TABLE_WIDGET_V2",
   "variant": "VARIANT3",

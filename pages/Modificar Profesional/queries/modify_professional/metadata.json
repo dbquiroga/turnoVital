@@ -67,10 +67,10 @@
         "key": "path"
       },
       {
-        "key": "queryParameters[0].value"
+        "key": "body"
       },
       {
-        "key": "body"
+        "key": "queryParameters[0].value"
       }
     ],
     "name": "modify_professional",

@@ -1,5 +1,9 @@
 export default {
 	async loadCascade() {
+		await clearStore('prof')
+		await clearStore('persona')
+		await clearStore('domicilio')
+		
 		try {
 			// 1) id del profesional desde la URL, o lo que uses
 			const profId = appsmith.URL.queryParams.id;
