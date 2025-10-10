@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "68d716f52765f94fabd3777f_c6eeb6c4-06bf-46af-9a93-61379dc5dc2b",
-  "id": "Consultar Profesional_mostrarProfesionales",
+  "gitSyncId": "68d716f52765f94fabd3777f_d2e92f7d-37fd-4b42-9e3b-19d6a59b4932",
+  "id": "Modificar Profesional_getProfesional",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -24,7 +24,7 @@
         },
         {
           "key": "Authorization",
-          "value": "Bearer eyJhbGciOiJIUzI1NiIsImtpZCI6IklKLzFHZEpUUlRrbjlxdlQiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3plaWl5dGh1Z2ViZWNod3p4ZWt0LnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiI1OTg3YWI4YS04YjkzLTQ1N2MtOGI0NS1iNjdkNjMyNDcyMGMiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzYwMTA2MzAxLCJpYXQiOjE3NjAxMDI3MDEsImVtYWlsIjoiYWRtaW5AdHVybm92aXRhbC5jb20iLCJwaG9uZSI6IiIsImFwcF9tZXRhZGF0YSI6eyJwcm92aWRlciI6ImVtYWlsIiwicHJvdmlkZXJzIjpbImVtYWlsIl19LCJ1c2VyX21ldGFkYXRhIjp7ImVtYWlsX3ZlcmlmaWVkIjp0cnVlfSwicm9sZSI6ImF1dGhlbnRpY2F0ZWQiLCJhYWwiOiJhYWwxIiwiYW1yIjpbeyJtZXRob2QiOiJwYXNzd29yZCIsInRpbWVzdGFtcCI6MTc2MDEwMjcwMX1dLCJzZXNzaW9uX2lkIjoiNjkxMWYxZTMtNWM5NS00ZTFiLWExYzItMjQ2OGJkZGZjNTRhIiwiaXNfYW5vbnltb3VzIjpmYWxzZX0.Dswcusqs2uEo3mxDuj6SgDQmjtKsMCSodYR6rsfOqYI"
+          "value": "Bearer {{ appsmith.store.access_token }}"
         },
         {
           "key": "Content-Type",
@@ -34,7 +34,7 @@
       "httpMethod": "GET",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "/rest/v1/vista_profesionales",
+      "path": "/rest/v1/profesional",
       "pluginSpecifiedTemplates": [
         {
           "value": true
@@ -42,8 +42,8 @@
       ],
       "queryParameters": [
         {
-          "key": "select",
-          "value": "*"
+          "key": "id",
+          "value": "eq.{{this.params.id}}"
         }
       ],
       "timeoutInMillisecond": 10000
@@ -55,10 +55,20 @@
       "name": "SupabaseREST",
       "pluginId": "restapi-plugin"
     },
-    "dynamicBindingPathList": [],
-    "name": "mostrarProfesionales",
-    "pageId": "Consultar Profesional",
-    "runBehaviour": "AUTOMATIC",
-    "userSetOnLoad": false
+    "dynamicBindingPathList": [
+      {
+        "key": "path"
+      },
+      {
+        "key": "queryParameters[0].value"
+      },
+      {
+        "key": "headers[1].value"
+      }
+    ],
+    "name": "getProfesional",
+    "pageId": "Modificar Profesional",
+    "runBehaviour": "ON_PAGE_LOAD",
+    "userSetOnLoad": true
   }
 }

@@ -8,13 +8,16 @@
   "bottomRow": 33,
   "boxShadow": "none",
   "defaultDialCode": "+54",
-  "defaultText": "",
+  "defaultText": "{{ getPersona.data?.[0]?.telefono\n|| \"\" }}",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "defaultText"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -41,8 +44,8 @@
   "mobileRightColumn": 21,
   "mobileTopRow": 27,
   "needsErrorInfo": false,
-  "originalBottomRow": 45,
-  "originalTopRow": 38,
+  "originalBottomRow": 33,
+  "originalTopRow": 26,
   "parentColumnSpace": 10.556640625,
   "parentId": "7cmoyy9k8n",
   "parentRowSpace": 10,

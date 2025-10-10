@@ -5,13 +5,16 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 19,
   "boxShadow": "none",
-  "defaultText": "",
+  "defaultText": "{{ getPersona.data?.[0]?.apellido || \"\" }}\n",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "defaultText"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -39,6 +42,8 @@
   "mobileRightColumn": 41,
   "mobileTopRow": 13,
   "needsErrorInfo": false,
+  "originalBottomRow": 19,
+  "originalTopRow": 12,
   "parentColumnSpace": 10.556640625,
   "parentId": "7cmoyy9k8n",
   "parentRowSpace": 10,

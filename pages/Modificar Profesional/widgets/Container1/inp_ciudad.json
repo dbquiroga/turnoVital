@@ -5,13 +5,16 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 46,
   "boxShadow": "none",
-  "defaultText": "",
+  "defaultText": "{{ getDomicilio.data[0].ciudad || \"\" }}",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "defaultText"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -39,6 +42,8 @@
   "mobileRightColumn": 63,
   "mobileTopRow": 31,
   "needsErrorInfo": false,
+  "originalBottomRow": 46,
+  "originalTopRow": 39,
   "parentColumnSpace": 10.556640625,
   "parentId": "7cmoyy9k8n",
   "parentRowSpace": 10,

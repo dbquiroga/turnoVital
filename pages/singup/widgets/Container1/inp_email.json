@@ -5,7 +5,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 41,
   "boxShadow": "none",
-  "defaultText": "",
+  "defaultText": "admin@turnovital.com",
   "displayName": "Input",
   "dynamicBindingPathList": [
     {

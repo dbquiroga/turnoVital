@@ -3,15 +3,18 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 46,
+  "bottomRow": 48,
   "boxShadow": "none",
-  "defaultText": "",
+  "defaultText": "{{ getDomicilio.data[0].piso || \"\" }}",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "defaultText"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -39,6 +42,8 @@
   "mobileRightColumn": 47,
   "mobileTopRow": 31,
   "needsErrorInfo": false,
+  "originalBottomRow": 46,
+  "originalTopRow": 39,
   "parentColumnSpace": 10.556640625,
   "parentId": "7cmoyy9k8n",
   "parentRowSpace": 10,
@@ -48,7 +53,7 @@
   "rightColumn": 32,
   "shouldAllowAutofill": false,
   "showStepArrows": false,
-  "topRow": 39,
+  "topRow": 41,
   "type": "INPUT_WIDGET_V2",
   "version": 2,
   "widgetId": "ja8k25j6c5",
