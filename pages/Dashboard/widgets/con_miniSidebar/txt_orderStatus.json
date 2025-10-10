@@ -36,7 +36,7 @@
   "shouldTruncate": false,
   "text": "Estado de turnos",
   "textAlign": "LEFT",
-  "textColor": "#fafafa",
+  "textColor": "#fff9f0",
   "topRow": 20,
   "truncateButtonColor": "#FFC13D",
   "type": "TEXT_WIDGET",

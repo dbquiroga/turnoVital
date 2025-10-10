@@ -4,13 +4,16 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 44,
   "boxShadow": "none",
-  "defaultOptionValue": "GREEN",
+  "defaultOptionValue": "Chubut",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "sourceData"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -30,7 +33,7 @@
   "labelPosition": "Top",
   "labelText": "Provincia",
   "labelTextColor": "#18181b",
-  "labelTextSize": "1rem",
+  "labelTextSize": "0.875rem",
   "labelWidth": 5,
   "leftColumn": 12,
   "maxDynamicHeight": 9000,
@@ -41,8 +44,8 @@
   "mobileRightColumn": 58,
   "mobileTopRow": 43,
   "needsErrorInfo": false,
-  "optionLabel": "name",
-  "optionValue": "code",
+  "optionLabel": "nombre",
+  "optionValue": "id",
   "parentColumnSpace": 21.81787109375,
   "parentId": "mffopzj47f",
   "parentRowSpace": 10,
@@ -51,7 +54,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 37,
   "serverSideFiltering": false,
-  "sourceData": "",
+  "sourceData": "{{listarProvincias.data}}",
   "topRow": 37,
   "type": "SELECT_WIDGET",
   "version": 1,

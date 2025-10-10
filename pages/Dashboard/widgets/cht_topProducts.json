@@ -4,9 +4,10 @@
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 72,
-  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
   "chartData": {
     "rvvojsd6rv": {
+      "color": "#77b525",
       "data": "{{utils.topOrderedProductsChart.data || [{x: 1, y: 2}]}}",
       "seriesName": "Turnos"
     }
@@ -167,9 +168,6 @@
   "dynamicBindingPathList": [
     {
       "key": "borderRadius"
-    },
-    {
-      "key": "boxShadow"
     },
     {
       "key": "accentColor"

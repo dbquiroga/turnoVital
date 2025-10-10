@@ -1,5 +1,6 @@
 {
   "animateLoading": true,
+  "backgroundColor": "",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 7,
   "dynamicBindingPathList": [
@@ -17,7 +18,7 @@
   "dynamicTriggerPathList": [],
   "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
   "fontSize": "1.875rem",
-  "fontStyle": "",
+  "fontStyle": "BOLD",
   "isLoading": false,
   "isVisible": true,
   "key": "qt74qx60fw",
@@ -42,7 +43,7 @@
   "shouldTruncate": false,
   "text": "Modificar Profesional",
   "textAlign": "LEFT",
-  "textColor": "#231F20",
+  "textColor": "#00467f",
   "topRow": 2,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",

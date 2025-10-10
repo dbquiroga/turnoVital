@@ -42,7 +42,7 @@
   "shouldTruncate": false,
   "text": "Domicilio:",
   "textAlign": "LEFT",
-  "textColor": "#18181b",
+  "textColor": "#00467f",
   "topRow": 35,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",

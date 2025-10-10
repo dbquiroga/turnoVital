@@ -28,7 +28,7 @@
   "labelPosition": "Top",
   "labelStyle": "",
   "labelTextColor": "#18181b",
-  "labelTextSize": "1rem",
+  "labelTextSize": "0.875rem",
   "labelWidth": 5,
   "leftColumn": 1,
   "maxDynamicHeight": 9000,

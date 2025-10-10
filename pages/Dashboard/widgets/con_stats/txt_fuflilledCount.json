@@ -11,9 +11,6 @@
       "key": "borderRadius"
     },
     {
-      "key": "textColor"
-    },
-    {
       "key": "text"
     }
   ],
@@ -42,7 +39,7 @@
   "shouldTruncate": false,
   "text": "{{utils.dashboardMetrics.data.fulfilledOrders}}",
   "textAlign": "LEFT",
-  "textColor": "{{appsmith.theme.colors.primaryColor}}",
+  "textColor": "#00477f",
   "topRow": 3,
   "truncateButtonColor": "#FFC13D",
   "type": "TEXT_WIDGET",

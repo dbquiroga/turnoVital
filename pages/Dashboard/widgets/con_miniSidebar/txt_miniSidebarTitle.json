@@ -36,7 +36,7 @@
   "shouldTruncate": false,
   "text": "Total turnos",
   "textAlign": "LEFT",
-  "textColor": "#fafafa",
+  "textColor": "#fff9f0",
   "topRow": 3,
   "truncateButtonColor": "#FFC13D",
   "type": "TEXT_WIDGET",

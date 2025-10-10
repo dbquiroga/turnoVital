@@ -1,6 +1,6 @@
 {
   "gitSyncId": "68d716f52765f94fabd3777f_afe96301-f88b-4f04-a2d2-1ecf24182b93",
-  "id": "Registrar Profesional_Api1",
+  "id": "Registrar Profesional_listarCiudades",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -12,11 +12,24 @@
       "formData": {
         "apiContentType": "none"
       },
-      "headers": [],
+      "headers": [
+        {
+          "key": "apikey",
+          "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InplaWl5dGh1Z2ViZWNod3p4ZWt0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTkxOTA0MzYsImV4cCI6MjA3NDc2NjQzNn0.Ose0R5PjBdZmIfqH5EILK-9TzRyk549jSp66-AotfRA"
+        },
+        {
+          "key": "Authorization",
+          "value": "Bearer {{ appsmith.store.access_token }}"
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json"
+        }
+      ],
       "httpMethod": "GET",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "/rest/v1/listarCiudades",
+      "path": "/rest/v1/ciudad",
       "pluginSpecifiedTemplates": [
         {
           "value": true
@@ -32,10 +45,14 @@
       "name": "SupabaseREST",
       "pluginId": "restapi-plugin"
     },
-    "dynamicBindingPathList": [],
-    "name": "Api1",
+    "dynamicBindingPathList": [
+      {
+        "key": "headers[1].value"
+      }
+    ],
+    "name": "listarCiudades",
     "pageId": "Registrar Profesional",
-    "runBehaviour": "MANUAL",
+    "runBehaviour": "AUTOMATIC",
     "userSetOnLoad": false
   }
 }

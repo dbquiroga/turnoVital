@@ -11,7 +11,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{\n\t\"matricula\": \"{{ inp_matricula.text }}\",\n\t\"user_id\": \"{{'5987ab8a-8b93-457c-8b45-b67d6324720c'}}\",\n\t\"especialidad_id\": \"{{ selector_especialidad.selectedOptionValue }}\",\n\t\"persona_id\": \"{{ appsmith.store.persona_id }}\"\n}\n",
+      "body": "{\n\t\"matricula\": \"{{ inp_matricula.text }}\",\n\t\"user_id\": \"{{'5987ab8a-8b93-457c-8b45-b67d6324720c'}}\",\n\t\"especialidad_id\": \"{{ selector_especialidad.selectedOptionValue }}\",\n\t\"persona_id\": \"{{ crearPersona.data[0].id }}\"\n}\n",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {
@@ -29,6 +29,10 @@
         {
           "key": "Content-Type",
           "value": "application/json"
+        },
+        {
+          "key": "Prefer",
+          "value": "return=representation"
         }
       ],
       "httpMethod": "POST",

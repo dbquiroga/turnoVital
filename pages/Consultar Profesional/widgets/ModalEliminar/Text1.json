@@ -38,7 +38,7 @@
   "shouldTruncate": false,
   "text": "Eliminar registro",
   "textAlign": "LEFT",
-  "textColor": "#231F20",
+  "textColor": "#00467f",
   "topRow": 1,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",

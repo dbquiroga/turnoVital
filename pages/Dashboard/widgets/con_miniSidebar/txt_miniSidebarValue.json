@@ -9,9 +9,6 @@
     },
     {
       "key": "borderRadius"
-    },
-    {
-      "key": "text"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -40,9 +37,9 @@
     "label"
   ],
   "shouldTruncate": false,
-  "text": "{{utils.dashboardMetrics.data.totalOrderValue}}",
+  "text": "36",
   "textAlign": "LEFT",
-  "textColor": "#fafafa",
+  "textColor": "#fff9f0",
   "topRow": 9,
   "truncateButtonColor": "#FFC13D",
   "type": "TEXT_WIDGET",
