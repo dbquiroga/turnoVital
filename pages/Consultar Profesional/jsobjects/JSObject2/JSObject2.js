@@ -1,6 +1,6 @@
 export default {
 	Button2onClick () {
-		deleteRegistro.run();
+		// deleteRegistro.run();
 		closeModal("ModalEliminar");
 		mostrarProfesionales.run();
 	}

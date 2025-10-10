@@ -51,7 +51,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 60,
   "serverSideFiltering": false,
-  "sourceData": "[\n  {\n    \"name\": \"Blue\",\n    \"code\": \"BLUE\"\n  },\n  {\n    \"name\": \"Green\",\n    \"code\": \"GREEN\"\n  },\n  {\n    \"name\": \"Red\",\n    \"code\": \"RED\"\n  }\n]",
+  "sourceData": "",
   "topRow": 30,
   "type": "SELECT_WIDGET",
   "version": 1,

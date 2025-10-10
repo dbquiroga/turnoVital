@@ -1,6 +1,6 @@
 {
   "gitSyncId": "68d716f52765f94fabd3777f_f3a40546-12e2-461c-a0de-a664ed874644",
-  "id": "Consultar Profesional_Api1",
+  "id": "Consultar Profesional_deleteRegistro",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -21,7 +21,7 @@
       "httpMethod": "DELETE",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "/profesionales",
+      "path": "/rest/v1/profesionales",
       "pluginSpecifiedTemplates": [
         {
           "value": true
@@ -44,13 +44,10 @@
     },
     "dynamicBindingPathList": [
       {
-        "key": "path"
-      },
-      {
         "key": "queryParameters[0].value"
       }
     ],
-    "name": "Api1",
+    "name": "deleteRegistro",
     "pageId": "Consultar Profesional",
     "runBehaviour": "MANUAL",
     "userSetOnLoad": false

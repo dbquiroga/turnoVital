@@ -4,13 +4,16 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 44,
   "boxShadow": "none",
-  "defaultOptionValue": "GREEN",
+  "defaultOptionValue": "Argentina",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "sourceData"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -41,17 +44,17 @@
   "mobileRightColumn": 58,
   "mobileTopRow": 43,
   "needsErrorInfo": false,
-  "optionLabel": "name",
-  "optionValue": "code",
+  "optionLabel": "value",
+  "optionValue": "label",
   "parentColumnSpace": 21.81787109375,
   "parentId": "mffopzj47f",
   "parentRowSpace": 10,
-  "placeholderText": "Select option",
+  "placeholderText": "Seleccionar Pais",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
   "rightColumn": 60,
   "serverSideFiltering": false,
-  "sourceData": "",
+  "sourceData": "{{listarPaises.data.map( (obj) =>{ return  {'label': obj.id, 'value': obj.nombre } })}}",
   "topRow": 37,
   "type": "SELECT_WIDGET",
   "version": 1,
