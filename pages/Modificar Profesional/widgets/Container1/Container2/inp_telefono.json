@@ -52,7 +52,7 @@
   "renderMode": "CANVAS",
   "resetOnSubmit": true,
   "responsiveBehavior": "fill",
-  "rightColumn": 46,
+  "rightColumn": 39,
   "topRow": 9,
   "type": "PHONE_INPUT_WIDGET",
   "version": 1,
