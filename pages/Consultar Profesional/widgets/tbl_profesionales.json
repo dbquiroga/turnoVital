@@ -3,7 +3,7 @@
   "allowAddNewRow": false,
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 86,
+  "bottomRow": 89,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "canFreezeColumn": false,
   "childStylesheet": {
@@ -112,6 +112,12 @@
     },
     {
       "key": "primaryColumns.apellido.computedValue"
+    },
+    {
+      "key": "primaryColumns.customColumn1.buttonColor"
+    },
+    {
+      "key": "primaryColumns.customColumn1.cellBackground"
     }
   ],
   "dynamicPropertyPathList": [
@@ -131,6 +137,9 @@
     },
     {
       "key": "onPageSizeChange"
+    },
+    {
+      "key": "primaryColumns.customColumn1.onClick"
     }
   ],
   "enableClientSideSearch": true,
@@ -154,8 +163,8 @@
   "onPageChange": "{{utils.getCustomers()}}",
   "onPageSizeChange": "{{utils.getCustomers()}}",
   "onRowSelected": "{{showModal('mdl_customerDetails')\nutils.getCustomerOrders(tbl_profesionales.selectedRow.CustomerID)\n}}",
-  "originalBottomRow": 86,
-  "originalTopRow": 8,
+  "originalBottomRow": 89,
+  "originalTopRow": 11,
   "parentColumnSpace": 18.1875,
   "parentId": "0",
   "parentRowSpace": 10,
@@ -201,10 +210,10 @@
       "allowSameOptionsInNewRow": true,
       "borderRadius": "{{tbl_profesionales.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
       "boxShadow": "{{tbl_profesionales.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
-      "buttonColor": "#18181b",
+      "buttonColor": "{{tbl_profesionales.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.colors.primaryColor)))}}",
       "buttonStyle": "rgb(3, 179, 101)",
       "buttonVariant": "PRIMARY",
-      "cellBackground": "#18181b",
+      "cellBackground": "{{tbl_profesionales.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.colors.backgroundColor)))}}",
       "columnType": "iconButton",
       "computedValue": "",
       "currencyCode": "USD",
@@ -228,6 +237,7 @@
       "label": "eliminar",
       "labelColor": "#FFFFFF",
       "notation": "standard",
+      "onClick": "{{JSObject1.mostrarModalEliminar('currentRow');}}",
       "originalId": "customColumn1",
       "sticky": "",
       "textSize": "0.875rem",
@@ -453,7 +463,7 @@
   "showInlineEditingOptionDropdown": true,
   "tableData": "{{mostrarProfesionales.data}}",
   "textSize": "0.875rem",
-  "topRow": 8,
+  "topRow": 11,
   "totalRecordsCount": "",
   "type": "TABLE_WIDGET_V2",
   "variant": "VARIANT3",
