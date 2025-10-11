@@ -8,7 +8,7 @@
   "bottomRow": 16,
   "boxShadow": "none",
   "defaultDialCode": "+54",
-  "defaultText": "{{ appsmith.store.persona?.telefono ?? \"\" }}",
+  "defaultText": "{{ loadInitialData.persona?.telefono ?? \"\" }}",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"

@@ -11,6 +11,9 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "text"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
@@ -21,7 +24,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "sqcaocjk5e",
-  "leftColumn": 25,
+  "leftColumn": 26,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -30,17 +33,17 @@
   "mobileRightColumn": 41,
   "mobileTopRow": 36,
   "needsErrorInfo": false,
-  "originalBottomRow": 40,
-  "originalTopRow": 36,
+  "originalBottomRow": 41,
+  "originalTopRow": 37,
   "overflow": "NONE",
   "parentColumnSpace": 7.625,
   "parentId": "vdr0zd6i4c",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 33,
+  "rightColumn": 34,
   "shouldTruncate": false,
-  "text": "",
+  "text": "{{ loadProfesionalDetail.domicilio?.ciudad?.codigo_postal ?? \"\" }}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 37,

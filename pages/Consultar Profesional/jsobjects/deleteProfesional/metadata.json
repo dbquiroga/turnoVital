@@ -1,11 +1,16 @@
 {
   "gitSyncId": "68d716f52765f94fabd3777f_663ee5a4-8851-4c00-977d-37faacd1f7bf",
-  "id": "Consultar Profesional_eliminaryRefrescarProfesional",
+  "id": "Consultar Profesional_deleteProfesional",
   "unpublishedCollection": {
-    "name": "eliminaryRefrescarProfesional",
+    "name": "deleteProfesional",
     "pageId": "Consultar Profesional",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "variables": []
+    "variables": [
+      {
+        "name": "row",
+        "value": "null"
+      }
+    ]
   }
 }

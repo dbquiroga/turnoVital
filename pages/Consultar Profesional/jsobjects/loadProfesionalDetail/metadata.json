@@ -1,0 +1,24 @@
+{
+  "gitSyncId": "68d716f52765f94fabd3777f_261249cc-cd95-428a-b4d8-6ce17b013ea0",
+  "id": "Consultar Profesional_loadProfesionalDetail",
+  "unpublishedCollection": {
+    "name": "loadProfesionalDetail",
+    "pageId": "Consultar Profesional",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "profesional",
+        "value": "{}"
+      },
+      {
+        "name": "persona",
+        "value": "{}"
+      },
+      {
+        "name": "domicilio",
+        "value": "{}"
+      }
+    ]
+  }
+}

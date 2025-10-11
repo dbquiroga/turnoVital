@@ -139,9 +139,6 @@
     },
     {
       "key": "primaryColumns.customColumn2.onClick"
-    },
-    {
-      "key": "primaryColumns.customColumn1.onClick"
     }
   ],
   "dynamicTriggerPathList": [
@@ -260,7 +257,7 @@
       "label": "",
       "labelColor": "#FFFFFF",
       "notation": "standard",
-      "onClick": "{{ eliminaryRefrescarProfesional.eliminarProfesional(currentRow) }}\n",
+      "onClick": "{{deleteProfesional.setRow(currentRow);\nshowModal(ModalEliminar.name);}}",
       "originalId": "customColumn1",
       "sticky": "",
       "textSize": "0.875rem",
@@ -342,7 +339,7 @@
       "label": "",
       "labelColor": "#FFFFFF",
       "notation": "standard",
-      "onClick": "{{showModal(ModalConsultar.name);}}",
+      "onClick": "{{showModal(ModalConsultar.name);\nloadProfesionalDetail.loadData(currentRow.profesional_id);}}",
       "originalId": "customColumn3",
       "sticky": "",
       "textSize": "0.875rem",

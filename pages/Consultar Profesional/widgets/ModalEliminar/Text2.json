@@ -11,6 +11,9 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "text"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
@@ -30,8 +33,8 @@
   "mobileRightColumn": 18,
   "mobileTopRow": 9,
   "needsErrorInfo": false,
-  "originalBottomRow": 18,
-  "originalTopRow": 9,
+  "originalBottomRow": 13,
+  "originalTopRow": 8,
   "overflow": "NONE",
   "parentColumnSpace": 6.9375,
   "parentId": "cfy1m1r53k",
@@ -40,7 +43,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 57,
   "shouldTruncate": false,
-  "text": "¿Está seguro de que desea eliminar el registro?",
+  "text": "¿Está seguro de que desea eliminar el profesional {{ deleteProfesional.row?.nombre ?? '' }} {{ deleteProfesional.row?.apellido ?? '' }} ? ",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 8,

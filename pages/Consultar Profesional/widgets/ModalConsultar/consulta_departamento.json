@@ -11,6 +11,9 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "text"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
@@ -21,7 +24,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "sqcaocjk5e",
-  "leftColumn": 15,
+  "leftColumn": 20,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -30,17 +33,17 @@
   "mobileRightColumn": 30,
   "mobileTopRow": 32,
   "needsErrorInfo": false,
-  "originalBottomRow": 36,
-  "originalTopRow": 32,
+  "originalBottomRow": 37,
+  "originalTopRow": 33,
   "overflow": "NONE",
   "parentColumnSpace": 7.625,
   "parentId": "vdr0zd6i4c",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 31,
+  "rightColumn": 36,
   "shouldTruncate": false,
-  "text": "",
+  "text": "{{ loadProfesionalDetail.domicilio?.departamento ?? \"\" }}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 33,

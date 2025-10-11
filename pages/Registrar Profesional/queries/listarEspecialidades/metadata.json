@@ -52,7 +52,7 @@
     ],
     "name": "listarEspecialidades",
     "pageId": "Registrar Profesional",
-    "runBehaviour": "AUTOMATIC",
-    "userSetOnLoad": false
+    "runBehaviour": "ON_PAGE_LOAD",
+    "userSetOnLoad": true
   }
 }

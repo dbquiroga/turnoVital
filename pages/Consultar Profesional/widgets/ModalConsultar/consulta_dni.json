@@ -43,7 +43,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 23,
   "shouldTruncate": false,
-  "text": "{{ appsmith.store.persona?.dni ?? \"\" }}",
+  "text": "{{ loadProfesionalDetail.persona?.dni ?? \"\" }}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 12,

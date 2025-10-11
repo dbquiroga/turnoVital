@@ -43,7 +43,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 27,
   "shouldTruncate": false,
-  "text": "{{ appsmith.store.profesional?.matricula ?? \"\" }}",
+  "text": "{{ loadProfesionalDetail.profesional?.matricula ?? \"\" }}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 16,

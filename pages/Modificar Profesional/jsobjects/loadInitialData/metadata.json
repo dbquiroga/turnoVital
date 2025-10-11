@@ -1,0 +1,24 @@
+{
+  "gitSyncId": "68d716f52765f94fabd3777f_cfde5a6e-abaa-4348-ba13-420e13a33fdd",
+  "id": "Modificar Profesional_loadInitialData",
+  "unpublishedCollection": {
+    "name": "loadInitialData",
+    "pageId": "Modificar Profesional",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "profesional",
+        "value": "{}"
+      },
+      {
+        "name": "persona",
+        "value": "{}"
+      },
+      {
+        "name": "domicilio",
+        "value": "{}"
+      }
+    ]
+  }
+}

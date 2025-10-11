@@ -5,9 +5,9 @@
   "bottomRow": 16,
   "boxShadow": "none",
   "closeOnSelection": true,
-  "dateFormat": "YYYY-MM-DD HH:mm",
+  "dateFormat": "DD-MM-YYYY",
   "datePickerType": "DATE_PICKER",
-  "defaultDate": "{{ appsmith.store.persona?.fecha_nacimiento ?? \"\" }}",
+  "defaultDate": "{{ loadInitialData.persona?.fecha_nacimiento ?? \"\" }}",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"

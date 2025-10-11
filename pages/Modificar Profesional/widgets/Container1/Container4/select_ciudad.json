@@ -4,7 +4,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 7,
   "boxShadow": "none",
-  "defaultOptionValue": "{{ ((options, serverSideFiltering) => (  appsmith.store.domicilio?.ciudad_id ?? \"\" ))(select_ciudad.options, select_ciudad.serverSideFiltering) }}",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => (  loadInitialData.domicilio?.ciudad_id ?? \"\" ))(select_ciudad.options, select_ciudad.serverSideFiltering) }}",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
@@ -46,8 +46,8 @@
   "mobileRightColumn": 44,
   "mobileTopRow": 10,
   "needsErrorInfo": false,
-  "optionLabel": "value",
-  "optionValue": "label",
+  "optionLabel": "nombre",
+  "optionValue": "id",
   "parentColumnSpace": 20.75592041015625,
   "parentId": "kzf2sjgnbs",
   "parentRowSpace": 10,
@@ -56,7 +56,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 62,
   "serverSideFiltering": false,
-  "sourceData": "{{listarCiudades.data.map( (obj) =>{ return  {'label': obj.id, 'value': obj.nombre } })}}",
+  "sourceData": "{{listarCiudades.data }}",
   "topRow": 0,
   "type": "SELECT_WIDGET",
   "version": 1,

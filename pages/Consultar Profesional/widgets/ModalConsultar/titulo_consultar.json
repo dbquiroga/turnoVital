@@ -11,6 +11,9 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "text"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
@@ -36,7 +39,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 41,
   "shouldTruncate": false,
-  "text": "Consultar Profesional",
+  "text": "Profesional {{ loadProfesionalDetail.persona.nombre }}, {{ loadProfesionalDetail.persona.apellido }} ",
   "textAlign": "LEFT",
   "textColor": "#00467f",
   "topRow": 0,

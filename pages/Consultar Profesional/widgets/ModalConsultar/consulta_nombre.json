@@ -11,6 +11,9 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "text"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
@@ -30,15 +33,17 @@
   "mobileRightColumn": 34,
   "mobileTopRow": 8,
   "needsErrorInfo": false,
+  "originalBottomRow": 13,
+  "originalTopRow": 8,
   "overflow": "NONE",
   "parentColumnSpace": 7.625,
   "parentId": "vdr0zd6i4c",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 36,
+  "rightColumn": 58,
   "shouldTruncate": false,
-  "text": "",
+  "text": "{{ loadProfesionalDetail.persona.nombre }}, {{ loadProfesionalDetail.persona.apellido }} ",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 8,

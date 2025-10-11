@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 36,
+  "bottomRow": 32,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -41,9 +41,9 @@
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 46,
+  "rightColumn": 52,
   "shouldTruncate": false,
-  "text": "{{ appsmith.store.domicilio?.calle ?? \"\" }}",
+  "text": "{{ loadProfesionalDetail.domicilio?.numero ?? \"\" }}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 28,

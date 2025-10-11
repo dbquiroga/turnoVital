@@ -5,7 +5,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 8,
   "boxShadow": "none",
-  "defaultText": "{{ appsmith.store.persona?.nombre ?? \"\" }}\n",
+  "defaultText": "{{ loadInitialData.persona?.nombre ?? \"\" }}\n",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
