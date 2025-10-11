@@ -3,9 +3,10 @@
   "allowAddNewRow": true,
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 83,
+  "bottomRow": 87,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "canFreezeColumn": false,
+  "cellBackground": "{{appsmith.theme.colors.backgroundColor}}",
   "childStylesheet": {
     "button": {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
@@ -37,13 +38,15 @@
     "especialidad",
     "dni",
     "customColumn1",
+    "customColumn1",
+    "customColumn1",
     "persona_id",
     "profesional_id",
     "especialidad_id",
-    "customColumn2",
-    "customColumn3"
+    "customColumn4",
+    "customColumn5"
   ],
-  "columnUpdatedAt": 1760138076189,
+  "columnUpdatedAt": 1760187005132,
   "columnWidthMap": {
     "BillingAddress": 212,
     "CustomerID": 93,
@@ -112,9 +115,6 @@
       "key": "primaryColumns.apellido.computedValue"
     },
     {
-      "key": "primaryColumns.customColumn1.cellBackground"
-    },
-    {
       "key": "primaryColumns.customColumn3.boxShadow"
     },
     {
@@ -128,6 +128,63 @@
     },
     {
       "key": "primaryColumns.especialidad_id.computedValue"
+    },
+    {
+      "key": "cellBackground"
+    },
+    {
+      "key": "primaryColumns.matricula.cellBackground"
+    },
+    {
+      "key": "primaryColumns.telefono.cellBackground"
+    },
+    {
+      "key": "primaryColumns.especialidad.cellBackground"
+    },
+    {
+      "key": "primaryColumns.nombre.cellBackground"
+    },
+    {
+      "key": "primaryColumns.customColumn1.cellBackground"
+    },
+    {
+      "key": "primaryColumns.customColumn2.cellBackground"
+    },
+    {
+      "key": "primaryColumns.persona_id.cellBackground"
+    },
+    {
+      "key": "primaryColumns.apellido.cellBackground"
+    },
+    {
+      "key": "primaryColumns.customColumn3.cellBackground"
+    },
+    {
+      "key": "primaryColumns.profesional_id.cellBackground"
+    },
+    {
+      "key": "primaryColumns.dni.cellBackground"
+    },
+    {
+      "key": "primaryColumns.especialidad_id.cellBackground"
+    },
+    {
+      "key": "primaryColumns.customColumn4.cellBackground"
+    },
+    {
+      "key": "primaryColumns.customColumn5.cellBackground"
+    },
+    {
+      "key": "primaryColumns.customColumn4.boxShadow"
+    },
+    {
+      "key": "primaryColumns.customColumn4.borderRadius"
+    },
+    {
+      "key": "primaryColumns.customColumn5.boxShadow"
+    },
+    {
+      "key": "primaryColumns.customColumn5.borderRadius"
     }
   ],
   "dynamicPropertyPathList": [
@@ -139,6 +196,9 @@
     },
     {
       "key": "primaryColumns.customColumn2.onClick"
+    },
+    {
+      "key": "primaryColumns.customColumn4.onClick"
     }
   ],
   "dynamicTriggerPathList": [
@@ -159,6 +219,12 @@
     },
     {
       "key": "primaryColumns.customColumn2.onClick"
+    },
+    {
+      "key": "primaryColumns.customColumn4.onClick"
+    },
+    {
+      "key": "primaryColumns.customColumn5.onClick"
     }
   ],
   "enableClientSideSearch": true,
@@ -183,8 +249,8 @@
   "onPageChange": "{{utils.getCustomers()}}",
   "onPageSizeChange": "{{utils.getCustomers()}}",
   "onRowSelected": "{{showModal('mdl_customerDetails')\nutils.getCustomerOrders(tbl_profesionales.selectedRow.CustomerID)\n}}",
-  "originalBottomRow": 83,
-  "originalTopRow": 6,
+  "originalBottomRow": 87,
+  "originalTopRow": 5,
   "parentColumnSpace": 18.1875,
   "parentId": "0",
   "parentRowSpace": 10,
@@ -194,7 +260,7 @@
       "alias": "apellido",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
+      "cellBackground": "{{appsmith.theme.colors.backgroundColor}}",
       "columnType": "text",
       "computedValue": "{{(() => { const tableData = tbl_profesionales.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"apellido\"])) : apellido })()}}",
       "currencyCode": "USD",
@@ -225,7 +291,7 @@
       "width": 150
     },
     "customColumn1": {
-      "alias": "",
+      "alias": "eliminar",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
       "borderRadius": "{{tbl_profesionales.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
@@ -233,7 +299,7 @@
       "buttonColor": "#00477e",
       "buttonStyle": "rgb(3, 179, 101)",
       "buttonVariant": "PRIMARY",
-      "cellBackground": "{{tbl_profesionales.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.colors.backgroundColor)))}}",
+      "cellBackground": "{{appsmith.theme.colors.backgroundColor}}",
       "columnType": "iconButton",
       "computedValue": "",
       "currencyCode": "USD",
@@ -254,7 +320,7 @@
       "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
-      "label": "",
+      "label": "eliminar",
       "labelColor": "#FFFFFF",
       "notation": "standard",
       "onClick": "{{deleteProfesional.setRow(currentRow);\nshowModal(ModalEliminar.name);}}",
@@ -267,7 +333,7 @@
       "width": 150
     },
     "customColumn2": {
-      "alias": "",
+      "alias": "editar3",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
       "borderRadius": "{{tbl_profesionales.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
@@ -275,6 +341,7 @@
       "buttonColor": "#00477e",
       "buttonStyle": "rgb(3, 179, 101)",
       "buttonVariant": "PRIMARY",
+      "cellBackground": "{{appsmith.theme.colors.backgroundColor}}",
       "columnType": "iconButton",
       "computedValue": "",
       "currencyCode": "USD",
@@ -295,7 +362,7 @@
       "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
-      "label": "",
+      "label": "editar3",
       "labelColor": "#FFFFFF",
       "notation": "standard",
       "onClick": "{{ navigateTo(\"Modificar Profesional\", { id: currentRow.profesional_id }) }}",
@@ -308,7 +375,7 @@
       "width": 150
     },
     "customColumn3": {
-      "alias": "",
+      "alias": "ver1",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
       "borderRadius": "{{tbl_profesionales.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
@@ -316,6 +383,7 @@
       "buttonColor": "#00477e",
       "buttonStyle": "rgb(3, 179, 101)",
       "buttonVariant": "PRIMARY",
+      "cellBackground": "{{appsmith.theme.colors.backgroundColor}}",
       "columnType": "iconButton",
       "computedValue": "",
       "currencyCode": "USD",
@@ -336,7 +404,7 @@
       "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
-      "label": "",
+      "label": "ver1",
       "labelColor": "#FFFFFF",
       "notation": "standard",
       "onClick": "{{showModal(ModalConsultar.name);\nloadProfesionalDetail.loadData(currentRow.profesional_id);}}",
@@ -348,11 +416,93 @@
       "verticalAlignment": "CENTER",
       "width": 150
     },
+    "customColumn4": {
+      "alias": "editar",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "borderRadius": "{{tbl_profesionales.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
+      "boxShadow": "{{tbl_profesionales.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
+      "buttonColor": "#00477e",
+      "buttonStyle": "rgb(3, 179, 101)",
+      "cellBackground": "{{appsmith.theme.colors.backgroundColor}}",
+      "columnType": "iconButton",
+      "computedValue": "",
+      "currencyCode": "USD",
+      "customAlias": "",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "LEFT",
+      "iconName": "annotation",
+      "id": "customColumn4",
+      "index": 10,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": true,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "editar",
+      "labelColor": "#FFFFFF",
+      "notation": "standard",
+      "onClick": "{{ navigateTo(\"Modificar Profesional\", { id: currentRow.profesional_id }) }}",
+      "originalId": "customColumn4",
+      "sticky": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "customColumn5": {
+      "alias": "ver",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "borderRadius": "{{tbl_profesionales.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
+      "boxShadow": "{{tbl_profesionales.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
+      "buttonColor": "#00477e",
+      "buttonStyle": "rgb(3, 179, 101)",
+      "cellBackground": "{{appsmith.theme.colors.backgroundColor}}",
+      "columnType": "iconButton",
+      "computedValue": "",
+      "currencyCode": "USD",
+      "customAlias": "",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "LEFT",
+      "iconName": "eye-open",
+      "id": "customColumn5",
+      "index": 10,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": true,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "ver",
+      "labelColor": "#FFFFFF",
+      "notation": "standard",
+      "onClick": "{{loadProfesionalDetail.loadData(currentRow.profesional_id);\nshowModal(ModalConsultar.name);}}",
+      "originalId": "customColumn5",
+      "sticky": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
     "dni": {
       "alias": "dni",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
+      "cellBackground": "{{appsmith.theme.colors.backgroundColor}}",
       "columnType": "text",
       "computedValue": "{{(() => { const tableData = tbl_profesionales.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"dni\"])) : dni })()}}",
       "currencyCode": "USD",
@@ -386,7 +536,7 @@
       "alias": "especialidad",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
+      "cellBackground": "{{appsmith.theme.colors.backgroundColor}}",
       "columnType": "text",
       "computedValue": "{{(() => { const tableData = tbl_profesionales.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"especialidad\"])) : especialidad })()}}",
       "currencyCode": "USD",
@@ -420,7 +570,7 @@
       "alias": "especialidad_id",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
+      "cellBackground": "{{appsmith.theme.colors.backgroundColor}}",
       "columnType": "text",
       "computedValue": "{{(() => { const tableData = tbl_profesionales.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"especialidad_id\"])) : especialidad_id })()}}",
       "currencyCode": "USD",
@@ -454,7 +604,7 @@
       "alias": "matricula",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
+      "cellBackground": "{{appsmith.theme.colors.backgroundColor}}",
       "columnType": "text",
       "computedValue": "{{(() => { const tableData = tbl_profesionales.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"matricula\"])) : matricula })()}}",
       "currencyCode": "USD",
@@ -488,7 +638,7 @@
       "alias": "nombre",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
+      "cellBackground": "{{appsmith.theme.colors.backgroundColor}}",
       "columnType": "text",
       "computedValue": "{{(() => { const tableData = tbl_profesionales.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"nombre\"])) : nombre })()}}",
       "currencyCode": "USD",
@@ -522,7 +672,7 @@
       "alias": "persona_id",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
+      "cellBackground": "{{appsmith.theme.colors.backgroundColor}}",
       "columnType": "text",
       "computedValue": "{{(() => { const tableData = tbl_profesionales.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"persona_id\"])) : persona_id })()}}",
       "currencyCode": "USD",
@@ -556,7 +706,7 @@
       "alias": "profesional_id",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
+      "cellBackground": "{{appsmith.theme.colors.backgroundColor}}",
       "columnType": "text",
       "computedValue": "{{(() => { const tableData = tbl_profesionales.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"profesional_id\"])) : profesional_id })()}}",
       "currencyCode": "USD",
@@ -590,7 +740,7 @@
       "alias": "telefono",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
+      "cellBackground": "{{appsmith.theme.colors.backgroundColor}}",
       "columnType": "text",
       "computedValue": "{{(() => { const tableData = tbl_profesionales.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"telefono\"])) : telefono })()}}",
       "currencyCode": "USD",
@@ -628,7 +778,7 @@
   "showInlineEditingOptionDropdown": true,
   "tableData": "{{mostrarProfesionales.data}}",
   "textSize": "0.875rem",
-  "topRow": 6,
+  "topRow": 5,
   "totalRecordsCount": "",
   "type": "TABLE_WIDGET_V2",
   "variant": "VARIANT3",
