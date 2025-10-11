@@ -11,7 +11,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{\n  \"nombre\": \"{{ inp_nombre.text }}\",\n  \"apellido\": \"{{ inp_apellido.text }}\",\n  \"email\": \"{{ inp_email.text }}\",\n  \"telefono\": \"{{ inp_telefono.text }}\"\n}\n",
+      "body": "{\n\t\"id\": \"{{ loadInitialData.persona.id }}\",\n  \"nombre\": \"{{ inp_nombre.text }}\",\n  \"apellido\": \"{{ inp_apellido.text }}\",\n  \"email\": \"{{ inp_email.text }}\",\n  \"telefono\": \"{{ inp_telefono.text }}\"\n}\n",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {
@@ -47,7 +47,7 @@
       "queryParameters": [
         {
           "key": "id",
-          "value": "eq.{{appsmith.store.persona.id }}"
+          "value": "eq.{{loadInitialData.persona.id }}"
         }
       ],
       "timeoutInMillisecond": 10000

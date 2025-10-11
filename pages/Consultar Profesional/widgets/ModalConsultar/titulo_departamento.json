@@ -2,7 +2,7 @@
   "animateLoading": true,
   "backgroundColor": "{{appsmith.theme.colors.backgroundColor}}",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 37,
+  "bottomRow": 41,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -34,8 +34,8 @@
   "mobileRightColumn": 17,
   "mobileTopRow": 32,
   "needsErrorInfo": false,
-  "originalBottomRow": 39,
-  "originalTopRow": 35,
+  "originalBottomRow": 37,
+  "originalTopRow": 33,
   "overflow": "NONE",
   "parentColumnSpace": 7.625,
   "parentId": "vdr0zd6i4c",
@@ -47,7 +47,7 @@
   "text": "Departamento:",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 33,
+  "topRow": 37,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

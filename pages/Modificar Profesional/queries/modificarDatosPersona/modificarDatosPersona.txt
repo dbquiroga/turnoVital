@@ -1,4 +1,5 @@
 {
+	"id": "{{ loadInitialData.persona.id }}",
   "nombre": "{{ inp_nombre.text }}",
   "apellido": "{{ inp_apellido.text }}",
   "email": "{{ inp_email.text }}",
