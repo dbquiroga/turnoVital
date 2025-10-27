@@ -9,9 +9,6 @@
     },
     {
       "key": "borderRadius"
-    },
-    {
-      "key": "text"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -37,7 +34,7 @@
     "paragraph"
   ],
   "shouldTruncate": false,
-  "text": "{{utils.dashboardMetrics.data.returnsCount}}",
+  "text": "8",
   "textAlign": "LEFT",
   "textColor": "#00477f",
   "topRow": 3,

@@ -1,6 +1,30 @@
 export default {
 	async guardarProfesional() {
 		try {
+
+			if (!inp_nombre_prof.text?.trim()) {
+				showAlert("⚠️ El nombre del profesional es obligatorio", "warning");
+				return;
+			}
+			if (!inp_apellido.text?.trim()) {
+				showAlert("⚠️ El apellido del profesional es obligatorio", "warning");
+				return;
+			}
+			if(!inp_dni)
+			if (!inp_email.text?.trim()) {
+				showAlert("⚠️ El correo electrónico es obligatorio", "warning");
+				return;
+			}
+			if (!inp_matricula.text?.trim()) {
+				showAlert("⚠️ La matrícula es obligatoria", "warning");
+				return;
+			}
+			if (!inp_telefono.text?.trim()) {
+				showAlert("⚠️ El teléfono es obligatorio", "warning");
+				return;
+			}
+
+			// Si los datos estan OK recien ahi ejecuta las queries en orden
 			await crearDomicilio.run();
 			// storeValue("domicilio_id", crearDomicilio.data[0].id);
 			console.log("domicilio: ", crearDomicilio.data);
