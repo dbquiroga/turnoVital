@@ -18,7 +18,7 @@ export default {
 				showAlert("⚠️ El correo electrónico es obligatorio", "warning");
 				return;
 			}
-			if (!inp_matricula.text?.trim()) {
+			if (!inp_matricula.value || inp_matricula <= 0 {
 				showAlert("⚠️ La matrícula es obligatoria", "warning");
 				return;
 			}
