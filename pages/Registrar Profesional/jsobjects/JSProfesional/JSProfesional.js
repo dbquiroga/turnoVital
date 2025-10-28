@@ -10,7 +10,10 @@ export default {
 				showAlert("⚠️ El apellido del profesional es obligatorio", "warning");
 				return;
 			}
-			if(!inp_dni)
+			if(!inp_dni?.trim()){
+				showAlert("⚠️ El DNI es obligatorio", "warning")
+				return;
+			}
 			if (!inp_email.text?.trim()) {
 				showAlert("⚠️ El correo electrónico es obligatorio", "warning");
 				return;
