@@ -16,7 +16,7 @@
   ],
   "dynamicHeight": "FIXED",
   "dynamicTriggerPathList": [],
-  "errorMessage": "No es un DNI valido",
+  "errorMessage": "No es un DNI valido. Debe tener 8 numeros.",
   "iconAlign": "left",
   "inputType": "NUMBER",
   "isDisabled": false,
