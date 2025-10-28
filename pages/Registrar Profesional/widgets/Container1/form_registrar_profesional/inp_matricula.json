@@ -39,7 +39,7 @@
   "maxDynamicHeight": 9000,
   "maxNum": "5",
   "minDynamicHeight": 4,
-  "minNum": "5",
+  "minNum": "1",
   "originalBottomRow": 25,
   "originalTopRow": 18,
   "parentColumnSpace": 13.9814453125,
