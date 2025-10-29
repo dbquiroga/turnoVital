@@ -20,9 +20,6 @@
   "dynamicPropertyPathList": [
     {
       "key": "sourceData"
-    },
-    {
-      "key": "optionValue"
     }
   ],
   "dynamicTriggerPathList": [],
@@ -38,7 +35,7 @@
   "labelTextColor": "#231f20",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
-  "leftColumn": 40,
+  "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -57,7 +54,7 @@
   "placeholderText": "Elige especialidad",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 60,
+  "rightColumn": 20,
   "serverSideFiltering": false,
   "sourceData": "{{listarEspecialidades.data}}",
   "topRow": 12,

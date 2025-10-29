@@ -2,7 +2,7 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 19,
+  "bottomRow": 27,
   "boxShadow": "none",
   "defaultOptionValue": "",
   "dynamicBindingPathList": [
@@ -20,9 +20,6 @@
   "dynamicPropertyPathList": [
     {
       "key": "sourceData"
-    },
-    {
-      "key": "optionValue"
     }
   ],
   "dynamicTriggerPathList": [],
@@ -34,11 +31,11 @@
   "key": "oj0s5lkuyw",
   "labelAlignment": "left",
   "labelPosition": "Top",
-  "labelText": "Especialidad",
+  "labelText": "Profesional",
   "labelTextColor": "#231f20",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
-  "leftColumn": 40,
+  "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -54,15 +51,15 @@
   "parentColumnSpace": 15.9375,
   "parentId": "mffopzj47f",
   "parentRowSpace": 10,
-  "placeholderText": "Elige especialidad",
+  "placeholderText": "Elige profesional",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 60,
+  "rightColumn": 20,
   "serverSideFiltering": false,
   "sourceData": "{{listarEspecialidades.data}}",
-  "topRow": 12,
+  "topRow": 20,
   "type": "SELECT_WIDGET",
   "version": 1,
-  "widgetId": "gwi4vullao",
-  "widgetName": "selector_especialidad"
+  "widgetId": "vs8hba0het",
+  "widgetName": "selector_especialidadCopy"
 }

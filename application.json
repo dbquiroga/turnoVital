@@ -44,6 +44,10 @@
     {
       "id": "Modificar Profesional",
       "isDefault": false
+    },
+    {
+      "id": "Alta Turno",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {

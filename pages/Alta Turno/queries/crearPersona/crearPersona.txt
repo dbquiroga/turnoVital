@@ -1,0 +1,9 @@
+{
+  "nombre": "{{ inp_nombre_prof.text }}",
+  "apellido": "{{ inp_apellido.text }}",
+  "dni": "{{ inp_dni.text }}",
+  "telefono": "{{ inp_telefono.text }}",
+  "fecha_nacimiento": "{{moment(inp_nacimiento.formattedDate).format('YYYY-MM-DD') }}",
+  "domicilio_id": "{{ crearDomicilio.data[0].id}}",
+	"email": "{{inp_email.text}}"
+}

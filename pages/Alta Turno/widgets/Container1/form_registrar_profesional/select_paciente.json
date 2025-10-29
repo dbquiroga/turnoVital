@@ -2,67 +2,58 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 19,
+  "bottomRow": 12,
   "boxShadow": "none",
-  "defaultOptionValue": "",
+  "defaultOptionValue": "Vanesa",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
     },
     {
       "key": "borderRadius"
-    },
-    {
-      "key": "sourceData"
     }
   ],
   "dynamicHeight": "FIXED",
   "dynamicPropertyPathList": [
     {
       "key": "sourceData"
-    },
-    {
-      "key": "optionValue"
     }
   ],
   "dynamicTriggerPathList": [],
   "isDisabled": false,
   "isFilterable": true,
   "isLoading": false,
-  "isRequired": true,
+  "isRequired": false,
   "isVisible": true,
-  "key": "oj0s5lkuyw",
+  "key": "6nsk0kt449",
   "labelAlignment": "left",
   "labelPosition": "Top",
-  "labelText": "Especialidad",
-  "labelTextColor": "#231f20",
+  "labelText": "Paciente",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
-  "leftColumn": 40,
+  "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 35,
+  "mobileBottomRow": 15,
   "mobileLeftColumn": 0,
-  "mobileRightColumn": 9,
-  "mobileTopRow": 28,
+  "mobileRightColumn": 12,
+  "mobileTopRow": 8,
   "needsErrorInfo": false,
-  "optionLabel": "nombre",
-  "optionValue": "id",
-  "originalBottomRow": 52,
-  "originalTopRow": 45,
-  "parentColumnSpace": 15.9375,
+  "optionLabel": "name",
+  "optionValue": "code",
+  "parentColumnSpace": 18.6904296875,
   "parentId": "mffopzj47f",
   "parentRowSpace": 10,
-  "placeholderText": "Elige especialidad",
+  "placeholderText": "Vanesa",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 60,
+  "rightColumn": 12,
   "serverSideFiltering": false,
-  "sourceData": "{{listarEspecialidades.data}}",
-  "topRow": 12,
+  "sourceData": "[\n  {\n    \"name\": \"Vanesa\",\n    \"code\": \"BLUE\"\n  },\n  {\n    \"name\": \"Green\",\n    \"code\": \"GREEN\"\n  },\n  {\n    \"name\": \"Red\",\n    \"code\": \"RED\"\n  }\n]",
+  "topRow": 5,
   "type": "SELECT_WIDGET",
   "version": 1,
-  "widgetId": "gwi4vullao",
-  "widgetName": "selector_especialidad"
+  "widgetId": "ricizvgyb3",
+  "widgetName": "select_paciente"
 }
