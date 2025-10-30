@@ -1,6 +1,6 @@
-{
-	"profesional_id": `${configurarAgenda.profesional_id}`,
+{{{
+	"profesional_id": `${configurarAgenda.profesionalId}`,
 	"dia_semana": `${this.params.dia_semana}`,
-	"dia_hora_inicio": `${this.params.hora_inicio}`,
-	"dia_hora_fin": `${this.params.hora_fin}`,
-}
+	"hora_inicio": `${this.params.hora_inicio}`,
+	"hora_fin": `${this.params.hora_fin}`,
+}}}

@@ -11,10 +11,13 @@ export default {
 		this.profesionalId = profesionalId
 	},
 	configuracionAgenda: [],
-	async crear(data){
+	async crear(diaSemana){
 		try {
+			console.log("DATA CREAR AGENDA ", data)
 			await crearAgenda.run({
-				...data
+				"dia_semana": diaSemana,
+				"hora_inicio": "08:00",
+				"hora_fin": "18:00"
 			})
 			await mostrarAgenda.run();
 		} catch (e) {

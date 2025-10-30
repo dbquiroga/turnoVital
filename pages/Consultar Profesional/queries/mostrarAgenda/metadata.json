@@ -42,7 +42,7 @@
       "queryParameters": [
         {
           "key": "profesional_id",
-          "value": "eq.{{this.params.id}}"
+          "value": "eq.{{configurarAgenda.profesionalId}}"
         }
       ],
       "timeoutInMillisecond": 10000
