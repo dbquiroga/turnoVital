@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "68fc13c2d7e1a24929454f2f_ef81765e-ad0a-458a-a3de-f7813900478e",
+  "id": "Consultar Profesional_utilsHorarios",
+  "unpublishedCollection": {
+    "name": "utilsHorarios",
+    "pageId": "Consultar Profesional",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

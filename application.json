@@ -48,6 +48,10 @@
     {
       "id": "Alta Turno",
       "isDefault": false
+    },
+    {
+      "id": "Consultar Turno",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {

@@ -38,15 +38,14 @@
     "especialidad",
     "dni",
     "customColumn1",
-    "customColumn1",
-    "customColumn1",
     "persona_id",
     "profesional_id",
     "especialidad_id",
     "customColumn4",
-    "customColumn5"
+    "customColumn5",
+    "customColumn2"
   ],
-  "columnUpdatedAt": 1760187005132,
+  "columnUpdatedAt": 1761784281091,
   "columnWidthMap": {
     "BillingAddress": 212,
     "CustomerID": 93,
@@ -55,6 +54,7 @@
     "ShippingAddress": 243,
     "Status": 91,
     "Total": 96,
+    "customColumn2": 283,
     "email": 74,
     "especialidad": 215,
     "fecha_alta": 119,
@@ -115,12 +115,6 @@
       "key": "primaryColumns.apellido.computedValue"
     },
     {
-      "key": "primaryColumns.customColumn3.boxShadow"
-    },
-    {
-      "key": "primaryColumns.customColumn3.borderRadius"
-    },
-    {
       "key": "primaryColumns.profesional_id.computedValue"
     },
     {
@@ -155,9 +149,6 @@
     },
     {
       "key": "primaryColumns.apellido.cellBackground"
-    },
-    {
-      "key": "primaryColumns.customColumn3.cellBackground"
     },
     {
       "key": "primaryColumns.profesional_id.cellBackground"
@@ -195,9 +186,6 @@
       "key": "tableData"
     },
     {
-      "key": "primaryColumns.customColumn2.onClick"
-    },
-    {
       "key": "primaryColumns.customColumn4.onClick"
     }
   ],
@@ -213,9 +201,6 @@
     },
     {
       "key": "primaryColumns.customColumn1.onClick"
-    },
-    {
-      "key": "primaryColumns.customColumn3.onClick"
     },
     {
       "key": "primaryColumns.customColumn2.onClick"
@@ -333,7 +318,7 @@
       "width": 150
     },
     "customColumn2": {
-      "alias": "editar3",
+      "alias": "configurar agenda",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
       "borderRadius": "{{tbl_profesionales.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
@@ -351,7 +336,7 @@
       "enableSort": true,
       "fontStyle": "",
       "horizontalAlignment": "LEFT",
-      "iconName": "annotation",
+      "iconName": "calendar",
       "id": "customColumn2",
       "index": 10,
       "isCellEditable": false,
@@ -362,53 +347,11 @@
       "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
-      "label": "editar3",
+      "label": "configurar agenda",
       "labelColor": "#FFFFFF",
       "notation": "standard",
-      "onClick": "{{ navigateTo(\"Modificar Profesional\", { id: currentRow.profesional_id }) }}",
+      "onClick": "{{showModal(ModalConfigurarAgenda.name);}}",
       "originalId": "customColumn2",
-      "sticky": "",
-      "textSize": "0.875rem",
-      "thousandSeparator": true,
-      "validation": {},
-      "verticalAlignment": "CENTER",
-      "width": 150
-    },
-    "customColumn3": {
-      "alias": "ver1",
-      "allowCellWrapping": false,
-      "allowSameOptionsInNewRow": true,
-      "borderRadius": "{{tbl_profesionales.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
-      "boxShadow": "{{tbl_profesionales.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
-      "buttonColor": "#00477e",
-      "buttonStyle": "rgb(3, 179, 101)",
-      "buttonVariant": "PRIMARY",
-      "cellBackground": "{{appsmith.theme.colors.backgroundColor}}",
-      "columnType": "iconButton",
-      "computedValue": "",
-      "currencyCode": "USD",
-      "customAlias": "",
-      "decimals": 0,
-      "enableFilter": true,
-      "enableSort": true,
-      "fontStyle": "",
-      "horizontalAlignment": "LEFT",
-      "iconName": "eye-open",
-      "id": "customColumn3",
-      "index": 10,
-      "isCellEditable": false,
-      "isCellVisible": true,
-      "isDerived": true,
-      "isDisabled": false,
-      "isDiscardVisible": true,
-      "isEditable": false,
-      "isSaveVisible": true,
-      "isVisible": true,
-      "label": "ver1",
-      "labelColor": "#FFFFFF",
-      "notation": "standard",
-      "onClick": "{{showModal(ModalConsultar.name);\nloadProfesionalDetail.loadData(currentRow.profesional_id);}}",
-      "originalId": "customColumn3",
       "sticky": "",
       "textSize": "0.875rem",
       "thousandSeparator": true,

@@ -1,0 +1,24 @@
+{
+  "gitSyncId": "68fc13c2d7e1a24929454f2f_82dc4d98-e1a8-43dd-80f4-66e5f793f941",
+  "id": "Consultar Turno_loadProfesionalDetail",
+  "unpublishedCollection": {
+    "name": "loadProfesionalDetail",
+    "pageId": "Consultar Turno",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "profesional",
+        "value": "{}"
+      },
+      {
+        "name": "persona",
+        "value": "{}"
+      },
+      {
+        "name": "domicilio",
+        "value": "{}"
+      }
+    ]
+  }
+}

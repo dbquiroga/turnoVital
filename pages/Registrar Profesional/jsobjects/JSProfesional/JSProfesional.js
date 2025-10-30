@@ -37,9 +37,11 @@ export default {
 			// storeValue("persona_id", crearPersona.data[0].id);
 			console.log("persona: ", crearPersona.data);
 
-
 			await crearProfesional.run();
 			console.log("profesional: ", crearProfesional.data);
+			
+			//await crearAgenda.run();
+			//console.log('agenda: ', crearProfesional.data)
 
 
 			showAlert("Profesional registrado con éxito ✅", "success");

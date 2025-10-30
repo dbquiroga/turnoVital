@@ -8,6 +8,7 @@ export default {
 			storeValue("access_token", authLogin.data.access_token);
 			storeValue("refresh_token", authLogin.data.refresh_token);
 			storeValue("user_id", authLogin.data.user.id);
+			
 
 			// Redirige al dashboard
 			//navigateTo("Dashboard");
