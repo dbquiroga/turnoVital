@@ -1,0 +1,48 @@
+{
+  "gitSyncId": "68fc13c2d7e1a24929454f2f_019d319f-e935-4245-9a23-c5330b8dca29",
+  "id": "Consultar Profesional_configurarAgenda",
+  "unpublishedCollection": {
+    "name": "configurarAgenda",
+    "pageId": "Consultar Profesional",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "profesionalId",
+        "value": "null"
+      },
+      {
+        "name": "lunesData",
+        "value": "[]"
+      },
+      {
+        "name": "martesData",
+        "value": "[]"
+      },
+      {
+        "name": "miercolesData",
+        "value": "[]"
+      },
+      {
+        "name": "juevesData",
+        "value": "[]"
+      },
+      {
+        "name": "viernesData",
+        "value": "[]"
+      },
+      {
+        "name": "sabadoData",
+        "value": "[]"
+      },
+      {
+        "name": "domingoData",
+        "value": "[]"
+      },
+      {
+        "name": "configuracionAgenda",
+        "value": "[]"
+      }
+    ]
+  }
+}

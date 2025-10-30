@@ -1,0 +1,4 @@
+{
+	"hora_inicio": `${this.param.hora_inicio}`,
+	"hora_fin": `${this.param.hora_fin}`
+}

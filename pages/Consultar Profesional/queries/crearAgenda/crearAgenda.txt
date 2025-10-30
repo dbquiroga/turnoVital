@@ -1,0 +1,6 @@
+{
+	"profesional_id": `${configurarAgenda.profesional_id}`,
+	"dia_semana": `${this.params.dia_semana}`,
+	"dia_hora_inicio": `${this.params.hora_inicio}`,
+	"dia_hora_fin": `${this.params.hora_fin}`,
+}

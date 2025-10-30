@@ -2,9 +2,9 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 5,
+  "bottomRow": 9,
   "boxShadow": "none",
-  "defaultOptionValue": "GREEN",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( configurarAgenda.lunesData[0]?.hora_fin ?? '18:00'))(lunesHoraFin.options, lunesHoraFin.serverSideFiltering) }}",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
@@ -14,27 +14,36 @@
     },
     {
       "key": "sourceData"
+    },
+    {
+      "key": "defaultOptionValue"
+    },
+    {
+      "key": "isVisible"
     }
   ],
   "dynamicHeight": "FIXED",
   "dynamicPropertyPathList": [
     {
       "key": "sourceData"
+    },
+    {
+      "key": "isVisible"
     }
   ],
   "dynamicTriggerPathList": [],
   "isDisabled": false,
   "isFilterable": true,
   "isLoading": false,
-  "isRequired": false,
-  "isVisible": true,
+  "isRequired": true,
+  "isVisible": "{{ configurarAgenda.lunesData.length > 0 }}",
   "key": "mju0c9kdmn",
   "labelAlignment": "left",
   "labelPosition": "Top",
   "labelText": "",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
-  "leftColumn": 36,
+  "leftColumn": 30,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -51,12 +60,12 @@
   "placeholderText": "hora fin",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 56,
+  "rightColumn": 50,
   "serverSideFiltering": false,
   "sourceData": "{{ utilsHorarios.generarHorarios() }}\n",
-  "topRow": 1,
+  "topRow": 5,
   "type": "SELECT_WIDGET",
   "version": 1,
   "widgetId": "12bh9qa2pu",
-  "widgetName": "hora_fin1"
+  "widgetName": "lunesHoraFin"
 }

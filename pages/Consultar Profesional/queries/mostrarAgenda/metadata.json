@@ -1,6 +1,6 @@
 {
   "gitSyncId": "68fc13c2d7e1a24929454f2f_34c638da-611b-4ac7-a618-747bda8b3c5d",
-  "id": "Consultar Profesional_getAgenda",
+  "id": "Consultar Profesional_mostrarAgenda",
   "pluginId": "restapi-plugin",
   "pluginType": "API",
   "unpublishedAction": {
@@ -41,7 +41,7 @@
       ],
       "queryParameters": [
         {
-          "key": "id",
+          "key": "profesional_id",
           "value": "eq.{{this.params.id}}"
         }
       ],
@@ -65,7 +65,7 @@
         "key": "queryParameters[0].value"
       }
     ],
-    "name": "getAgenda",
+    "name": "mostrarAgenda",
     "pageId": "Consultar Profesional",
     "runBehaviour": "MANUAL",
     "userSetOnLoad": false

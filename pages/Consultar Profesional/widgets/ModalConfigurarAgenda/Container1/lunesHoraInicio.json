@@ -2,9 +2,9 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 5,
+  "bottomRow": 9,
   "boxShadow": "none",
-  "defaultOptionValue": "GREEN",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( configurarAgenda.lunesData[0]?.hora_incio ?? '08:00'))(lunesHoraInicio.options, lunesHoraInicio.serverSideFiltering) }}",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
@@ -14,27 +14,36 @@
     },
     {
       "key": "sourceData"
+    },
+    {
+      "key": "defaultOptionValue"
+    },
+    {
+      "key": "isVisible"
     }
   ],
   "dynamicHeight": "FIXED",
   "dynamicPropertyPathList": [
     {
       "key": "sourceData"
+    },
+    {
+      "key": "isVisible"
     }
   ],
   "dynamicTriggerPathList": [],
   "isDisabled": false,
   "isFilterable": true,
   "isLoading": false,
-  "isRequired": false,
-  "isVisible": true,
+  "isRequired": true,
+  "isVisible": "{{ configurarAgenda.lunesData.length > 0 }}",
   "key": "mju0c9kdmn",
   "labelAlignment": "left",
   "labelPosition": "Top",
   "labelText": "",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
-  "leftColumn": 14,
+  "leftColumn": 9,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -45,18 +54,20 @@
   "needsErrorInfo": false,
   "optionLabel": "name",
   "optionValue": "code",
+  "originalBottomRow": 10,
+  "originalTopRow": 6,
   "parentColumnSpace": 9.3974609375,
   "parentId": "bqwredhirn",
   "parentRowSpace": 10,
   "placeholderText": "hora inicio",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 34,
+  "rightColumn": 29,
   "serverSideFiltering": false,
   "sourceData": "{{ utilsHorarios.generarHorarios() }}\n",
-  "topRow": 1,
+  "topRow": 5,
   "type": "SELECT_WIDGET",
   "version": 1,
   "widgetId": "l34keypbae",
-  "widgetName": "hora_inicio1"
+  "widgetName": "lunesHoraInicio"
 }
