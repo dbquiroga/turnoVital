@@ -1,23 +1,23 @@
 {
-  "gitSyncId": "68fc13c2d7e1a24929454f2f_3479e644-33c3-463e-8a2f-5966b51d671d",
+  "gitSyncId": "68fc13c2d7e1a24929454f2f_053994ce-d2a2-47c8-9392-d4f282f84a4c",
   "unpublishedPage": {
     "isHidden": false,
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 870,
+          "bottomRow": 380,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
           "dynamicBindingPathList": [],
           "leftColumn": 0,
-          "minHeight": 920,
+          "minHeight": 810,
           "parentColumnSpace": 1,
           "parentRowSpace": 1,
           "rightColumn": 1224,
           "snapColumns": 64,
-          "snapRows": 90,
+          "snapRows": 79,
           "topRow": 0,
           "type": "CANVAS_WIDGET",
           "version": 94,
@@ -26,7 +26,7 @@
         }
       }
     ],
-    "name": "Consultar Turno",
-    "slug": "consultar-turno"
+    "name": "Emitir agenda profesional",
+    "slug": "emitir-agenda-profesional"
   }
 }
