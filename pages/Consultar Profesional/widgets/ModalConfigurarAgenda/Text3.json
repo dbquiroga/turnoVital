@@ -11,9 +11,6 @@
     },
     {
       "key": "borderRadius"
-    },
-    {
-      "key": "text"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
@@ -39,7 +36,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 41,
   "shouldTruncate": false,
-  "text": "Configurar Agenda de {{ deleteProfesional.row?.nombre ?? '' }} {{ deleteProfesional.row?.apellido ?? '' }} ",
+  "text": "Configurar Agenda ",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 1,
