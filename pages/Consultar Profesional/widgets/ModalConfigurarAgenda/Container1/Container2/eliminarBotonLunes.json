@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 8,
+  "bottomRow": 12,
   "bottomRowBeforeCollapse": 12,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -40,7 +40,7 @@
   "mobileTopRow": 1,
   "needsErrorInfo": false,
   "onClick": "{{configurarAgenda.eliminar(configurarAgenda.lunesData[0].id);}}",
-  "originalBottomRow": 12,
+  "originalBottomRow": 8,
   "originalTopRow": 8,
   "parentColumnSpace": 3.5859375,
   "parentId": "oepwwkgofp",

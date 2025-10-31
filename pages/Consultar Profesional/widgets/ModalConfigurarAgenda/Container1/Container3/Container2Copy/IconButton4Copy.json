@@ -38,7 +38,7 @@
   "mobileRightColumn": 62,
   "mobileTopRow": 5,
   "needsErrorInfo": false,
-  "onClick": "{{configurarAgenda.crear(\"lunes\");}}",
+  "onClick": "{{configurarAgenda.crear('martes');}}",
   "parentColumnSpace": 3.5859375,
   "parentId": "m4p8jlcdeq",
   "parentRowSpace": 10,

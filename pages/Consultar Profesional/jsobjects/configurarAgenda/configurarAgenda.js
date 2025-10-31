@@ -28,7 +28,7 @@ export default {
 			this.refrescarInfo()
 		} catch (e) {
 			showAlert("Error al crear ❌", "error");
-			console.log(e);
+			console.log('El error al crear la agenda es:', e);
 		}
 	},
 	async getDatabyDia(dia) {

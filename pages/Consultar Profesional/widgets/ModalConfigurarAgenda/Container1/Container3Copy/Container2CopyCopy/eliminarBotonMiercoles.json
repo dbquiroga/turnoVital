@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 8,
+  "bottomRow": 12,
   "bottomRowBeforeCollapse": 12,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -30,7 +30,7 @@
   "iconName": "trash",
   "isDisabled": false,
   "isLoading": false,
-  "isVisible": "{{ configurarAgenda.lunesData.length > 0 }}",
+  "isVisible": "{{ configurarAgenda.miercolesData.length > 0 }}",
   "key": "jlj9k2xb41",
   "leftColumn": 60,
   "minWidth": 50,

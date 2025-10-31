@@ -2,10 +2,10 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 8,
+  "bottomRow": 12,
   "bottomRowBeforeCollapse": 12,
   "boxShadow": "none",
-  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( configurarAgenda.lunesData[0]?.hora_fin ?? '18:00'))(martesHoraFin.options, martesHoraFin.serverSideFiltering) }}",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( configurarAgenda.martesData[0]?.hora_fin ?? '18:00'))(martesHoraFin.options, martesHoraFin.serverSideFiltering) }}",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
@@ -37,7 +37,7 @@
   "isFilterable": true,
   "isLoading": false,
   "isRequired": true,
-  "isVisible": "{{ configurarAgenda.lunesData.length > 0 }}",
+  "isVisible": "{{ configurarAgenda.martesData.length > 0 }}",
   "key": "mju0c9kdmn",
   "labelAlignment": "left",
   "labelPosition": "Top",

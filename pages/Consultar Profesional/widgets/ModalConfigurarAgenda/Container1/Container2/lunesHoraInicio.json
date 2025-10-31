@@ -2,7 +2,7 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 8,
+  "bottomRow": 12,
   "bottomRowBeforeCollapse": 12,
   "boxShadow": "none",
   "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( configurarAgenda.lunesData[0].hora_inicio ?? '08:00'))(lunesHoraInicio.options, lunesHoraInicio.serverSideFiltering) }}",
