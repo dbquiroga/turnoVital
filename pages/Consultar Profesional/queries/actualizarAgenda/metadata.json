@@ -11,7 +11,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{\n\t\"hora_inicio\": `${this.param.hora_inicio}`,\n\t\"hora_fin\": `${this.param.hora_fin}`\n}",
+      "body": "{{{\n\t\"hora_inicio\": `${this.params.hora_inicio}`,\n\t\"hora_fin\": `${this.params.hora_fin}`\n}}}",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {
@@ -68,6 +68,9 @@
       },
       {
         "key": "queryParameters[0].value"
+      },
+      {
+        "key": "body"
       }
     ],
     "name": "actualizarAgenda",

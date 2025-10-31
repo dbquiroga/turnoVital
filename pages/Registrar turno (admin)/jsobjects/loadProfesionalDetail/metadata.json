@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "68fc13c2d7e1a24929454f2f_59a1ad81-349c-4270-889a-b569caa474c7",
+  "id": "Registrar turno (admin)_loadProfesionalDetail",
+  "unpublishedCollection": {
+    "name": "loadProfesionalDetail",
+    "pageId": "Registrar turno (admin)",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "profesional",
+        "value": "{}"
+      },
+      {
+        "name": "persona",
+        "value": "{}"
+      }
+    ]
+  }
+}

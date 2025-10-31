@@ -4,7 +4,7 @@ export default {
 	domicilio: {},
 	async loadData (profId) {
 		try {
-
+			console.log("LOAD DATA PROFESSIONAL")
 			// 2) Profesional
 			const profRows = await getProfesional.run({ id: profId });
 			console.log("profRows ", profRows)

@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "68fc13c2d7e1a24929454f2f_083a2ef7-4832-46af-b963-184aa8042eb0",
+  "id": "Registrar turno (admin)_crearTurno",
+  "unpublishedCollection": {
+    "name": "crearTurno",
+    "pageId": "Registrar turno (admin)",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

@@ -46,11 +46,11 @@
       "isDefault": false
     },
     {
-      "id": "Alta Turno",
+      "id": "Alta Turno (paciente)",
       "isDefault": false
     },
     {
-      "id": "Emitir agenda profesional",
+      "id": "Registrar turno (admin)",
       "isDefault": false
     }
   ],
