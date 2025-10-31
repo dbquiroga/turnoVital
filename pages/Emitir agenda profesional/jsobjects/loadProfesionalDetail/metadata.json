@@ -1,0 +1,24 @@
+{
+  "gitSyncId": "68fc13c2d7e1a24929454f2f_59a1ad81-349c-4270-889a-b569caa474c7",
+  "id": "Emitir agenda profesional_loadProfesionalDetail",
+  "unpublishedCollection": {
+    "name": "loadProfesionalDetail",
+    "pageId": "Emitir agenda profesional",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "profesional",
+        "value": "{}"
+      },
+      {
+        "name": "persona",
+        "value": "{}"
+      },
+      {
+        "name": "domicilio",
+        "value": "{}"
+      }
+    ]
+  }
+}
