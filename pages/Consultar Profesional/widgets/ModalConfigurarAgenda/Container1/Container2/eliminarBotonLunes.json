@@ -40,7 +40,7 @@
   "mobileTopRow": 1,
   "needsErrorInfo": false,
   "onClick": "{{configurarAgenda.eliminar(configurarAgenda.lunesData[0].id);}}",
-  "originalBottomRow": 8,
+  "originalBottomRow": 12,
   "originalTopRow": 8,
   "parentColumnSpace": 3.5859375,
   "parentId": "oepwwkgofp",

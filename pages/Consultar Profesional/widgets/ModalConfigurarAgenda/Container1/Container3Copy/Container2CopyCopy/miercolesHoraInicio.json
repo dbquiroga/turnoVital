@@ -63,7 +63,7 @@
   "placeholderText": "hora inicio",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 25.098039215686274,
+  "rightColumn": 25,
   "serverSideFiltering": false,
   "sourceData": "{{ utilsHorarios.generarHorarios() }}\n",
   "topRow": 8,

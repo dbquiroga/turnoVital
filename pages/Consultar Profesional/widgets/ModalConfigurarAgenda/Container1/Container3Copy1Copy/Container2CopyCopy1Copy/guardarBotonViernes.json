@@ -36,7 +36,7 @@
   "mobileRightColumn": 53,
   "mobileTopRow": 1,
   "needsErrorInfo": false,
-  "onClick": "{{configurarAgenda.actualizar(profesionalId);}}",
+  "onClick": "{{configurarAgenda.actualizar('viernes');}}",
   "originalBottomRow": 12,
   "originalTopRow": 8,
   "parentColumnSpace": 3.5859375,

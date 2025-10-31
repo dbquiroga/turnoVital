@@ -39,7 +39,7 @@
   "mobileRightColumn": 58,
   "mobileTopRow": 1,
   "needsErrorInfo": false,
-  "onClick": "{{configurarAgenda.eliminar(configurarAgenda.lunesData[0].id);}}",
+  "onClick": "{{configurarAgenda.eliminar(configurarAgenda.miercolesData[0].id);}}",
   "originalBottomRow": 12,
   "originalTopRow": 8,
   "parentColumnSpace": 3.5859375,

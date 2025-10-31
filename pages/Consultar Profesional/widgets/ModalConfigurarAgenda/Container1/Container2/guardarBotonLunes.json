@@ -37,7 +37,7 @@
   "mobileTopRow": 1,
   "needsErrorInfo": false,
   "onClick": "{{configurarAgenda.actualizar('lunes');}}",
-  "originalBottomRow": 8,
+  "originalBottomRow": 12,
   "originalTopRow": 8,
   "parentColumnSpace": 3.5859375,
   "parentId": "oepwwkgofp",

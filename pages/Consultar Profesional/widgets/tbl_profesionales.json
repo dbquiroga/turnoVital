@@ -251,7 +251,7 @@
   "leftColumn": 0,
   "onPageChange": "{{utils.getCustomers()}}",
   "onPageSizeChange": "{{utils.getCustomers()}}",
-  "onRowSelected": "{{showModal('mdl_customerDetails')\nutils.getCustomerOrders(tbl_profesionales.selectedRow.CustomerID)\n}}",
+  "onRowSelected": "",
   "originalBottomRow": 86,
   "originalTopRow": 5,
   "parentColumnSpace": 18.1875,

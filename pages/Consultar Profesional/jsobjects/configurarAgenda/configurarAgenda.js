@@ -39,6 +39,30 @@ export default {
 					"hora_inicio": `${lunesHoraInicio.selectedOptionValue}`,
 					"hora_fin": `${lunesHoraFin.selectedOptionValue}`
 				}
+			case "martes":
+				return {
+					"id": `${configurarAgenda.martesData[0].id}`,
+					"hora_inicio": `${martesHoraInicio.selectedOptionValue}`,
+					"hora_fin": `${martesHoraFin.selectedOptionValue}`
+				};
+			case "miercoles":
+				return {
+					"id": `${configurarAgenda.miercolesData[0].id}`,
+				"	hora_inicio": `${miercolesHoraInicio.selectedOptionValue}`,
+				"	hora_fin": `${miercolesHoraFin.selectedOptionValue}`
+				};
+			case "jueves":
+				return {
+					"id": `${configurarAgenda.juevesData[0].id}`,
+					"hora_inicio": `${juevesHoraInicio.selectedOptionValue}`,
+					"hora_fin": `${juevesHoraFin.selectedOptionValue}`
+				};
+			case "viernes":
+				return {
+					"id": `${configurarAgenda.viernesData[0].id}`,
+					"hora_inicio": `${viernesHoraInicio.selectedOptionValue}`,
+					"hora_fin": `${viernesHoraFin.selectedOptionValue}`
+				};
 		}
 	},
 	async actualizar(dia){
